@@ -1,0 +1,44 @@
+@mixin grid-system($col-count: 12, $max-width: 1200px, $gutter-size: 12px, $breakpoint-width: 800px) {
+  // : domyślna wartość po dwukropku, jak jej nie ma nie dajemy dwukropka
+
+  $oneColWidth: 100%/$col-count;
+
+  .grid-container {
+    width: 100%;
+    max-width: $max-width;
+    margin: auto;
+
+    .row {
+
+      &::after, // taki zagnieżdżony clearfix ;))
+      &::before {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      // KOLUMNY!!!
+      [class*='col-'] {
+        float: left;
+        main-height: 1px;
+        margin: 0; //dla kolumn zeruję marginesy...
+        padding: $gutter-size; // gutter
+        // dla kolumny bierze rozmiar z krawędzią
+        box-sizing: border-box;
+
+      }
+
+      @for $i from 1 through $col-count {
+        // through wylącznie to włącznie
+        .col-#{$i} {
+          width: 100%; // podeście mobile first - zaczyamy od phona
+          float: left;
+          @media (min-width: $breakpoint-width) {
+            //
+            width: $i*$oneColWidth; // dla wiekszych super
+          }
+        }
+      }
+    }
+
+  }
+}
