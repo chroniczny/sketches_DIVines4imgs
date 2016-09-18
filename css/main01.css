@@ -1,0 +1,1492 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.container4imgs {
+  max-width: 768px;
+  max-height: 527.36px;
+  margin: 20px auto;
+  transform-style: preserve-3d; }
+
+.fragment {
+  box-sizing: border-box;
+  width: 96px;
+  height: 85.33333px;
+  background-color: aquamarine;
+  background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+  float: left; }
+
+.reflex {
+  width: 100%;
+  height: 100%; }
+
+.f1z1 {
+  background-position: left  0px top 0px; }
+  @media (max-width: 300px) {
+    .f1z1 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f1z1 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f1z1 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f1z1 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f2z1 {
+  background-position: left  -96px top 0px; }
+  @media (max-width: 300px) {
+    .f2z1 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f2z1 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f2z1 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f2z1 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f3z1 {
+  background-position: left  -192px top 0px; }
+  @media (max-width: 300px) {
+    .f3z1 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f3z1 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f3z1 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f3z1 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f4z1 {
+  background-position: left  -288px top 0px; }
+  @media (max-width: 300px) {
+    .f4z1 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f4z1 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f4z1 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f4z1 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f5z1 {
+  background-position: left  -384px top 0px; }
+  @media (max-width: 300px) {
+    .f5z1 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f5z1 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f5z1 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f5z1 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f6z1 {
+  background-position: left  -480px top 0px; }
+  @media (max-width: 300px) {
+    .f6z1 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f6z1 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f6z1 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f6z1 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f7z1 {
+  background-position: left  -576px top 0px; }
+  @media (max-width: 300px) {
+    .f7z1 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f7z1 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f7z1 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f7z1 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f8z1 {
+  background-position: left  -672px top 0px; }
+  @media (max-width: 300px) {
+    .f8z1 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f8z1 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f8z1 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f8z1 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f1z2 {
+  background-position: left  0px top -85.33333px; }
+  @media (max-width: 300px) {
+    .f1z2 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f1z2 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f1z2 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f1z2 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f2z2 {
+  background-position: left  -96px top -85.33333px; }
+  @media (max-width: 300px) {
+    .f2z2 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f2z2 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f2z2 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f2z2 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f3z2 {
+  background-position: left  -192px top -85.33333px; }
+  @media (max-width: 300px) {
+    .f3z2 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f3z2 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f3z2 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f3z2 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f4z2 {
+  background-position: left  -288px top -85.33333px; }
+  @media (max-width: 300px) {
+    .f4z2 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f4z2 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f4z2 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f4z2 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f5z2 {
+  background-position: left  -384px top -85.33333px; }
+  @media (max-width: 300px) {
+    .f5z2 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f5z2 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f5z2 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f5z2 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f6z2 {
+  background-position: left  -480px top -85.33333px; }
+  @media (max-width: 300px) {
+    .f6z2 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f6z2 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f6z2 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f6z2 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f7z2 {
+  background-position: left  -576px top -85.33333px; }
+  @media (max-width: 300px) {
+    .f7z2 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f7z2 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f7z2 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f7z2 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f8z2 {
+  background-position: left  -672px top -85.33333px; }
+  @media (max-width: 300px) {
+    .f8z2 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f8z2 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f8z2 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f8z2 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f1z3 {
+  background-position: left  0px top -170.66667px; }
+  @media (max-width: 300px) {
+    .f1z3 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f1z3 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f1z3 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f1z3 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f2z3 {
+  background-position: left  -96px top -170.66667px; }
+  @media (max-width: 300px) {
+    .f2z3 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f2z3 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f2z3 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f2z3 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f3z3 {
+  background-position: left  -192px top -170.66667px; }
+  @media (max-width: 300px) {
+    .f3z3 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f3z3 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f3z3 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f3z3 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f4z3 {
+  background-position: left  -288px top -170.66667px; }
+  @media (max-width: 300px) {
+    .f4z3 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f4z3 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f4z3 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f4z3 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f5z3 {
+  background-position: left  -384px top -170.66667px; }
+  @media (max-width: 300px) {
+    .f5z3 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f5z3 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f5z3 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f5z3 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f6z3 {
+  background-position: left  -480px top -170.66667px; }
+  @media (max-width: 300px) {
+    .f6z3 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f6z3 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f6z3 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f6z3 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f7z3 {
+  background-position: left  -576px top -170.66667px; }
+  @media (max-width: 300px) {
+    .f7z3 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f7z3 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f7z3 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f7z3 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f8z3 {
+  background-position: left  -672px top -170.66667px; }
+  @media (max-width: 300px) {
+    .f8z3 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f8z3 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f8z3 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f8z3 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f1z4 {
+  background-position: left  0px top -256px; }
+  @media (max-width: 300px) {
+    .f1z4 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f1z4 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f1z4 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f1z4 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f2z4 {
+  background-position: left  -96px top -256px; }
+  @media (max-width: 300px) {
+    .f2z4 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f2z4 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f2z4 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f2z4 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f3z4 {
+  background-position: left  -192px top -256px; }
+  @media (max-width: 300px) {
+    .f3z4 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f3z4 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f3z4 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f3z4 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f4z4 {
+  background-position: left  -288px top -256px; }
+  @media (max-width: 300px) {
+    .f4z4 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f4z4 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f4z4 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f4z4 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f5z4 {
+  background-position: left  -384px top -256px; }
+  @media (max-width: 300px) {
+    .f5z4 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f5z4 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f5z4 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f5z4 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f6z4 {
+  background-position: left  -480px top -256px; }
+  @media (max-width: 300px) {
+    .f6z4 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f6z4 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f6z4 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f6z4 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f7z4 {
+  background-position: left  -576px top -256px; }
+  @media (max-width: 300px) {
+    .f7z4 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f7z4 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f7z4 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f7z4 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f8z4 {
+  background-position: left  -672px top -256px; }
+  @media (max-width: 300px) {
+    .f8z4 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f8z4 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f8z4 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f8z4 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f1z5 {
+  background-position: left  0px top -341.33333px; }
+  @media (max-width: 300px) {
+    .f1z5 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f1z5 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f1z5 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f1z5 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f2z5 {
+  background-position: left  -96px top -341.33333px; }
+  @media (max-width: 300px) {
+    .f2z5 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f2z5 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f2z5 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f2z5 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f3z5 {
+  background-position: left  -192px top -341.33333px; }
+  @media (max-width: 300px) {
+    .f3z5 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f3z5 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f3z5 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f3z5 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f4z5 {
+  background-position: left  -288px top -341.33333px; }
+  @media (max-width: 300px) {
+    .f4z5 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f4z5 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f4z5 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f4z5 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f5z5 {
+  background-position: left  -384px top -341.33333px; }
+  @media (max-width: 300px) {
+    .f5z5 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f5z5 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f5z5 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f5z5 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f6z5 {
+  background-position: left  -480px top -341.33333px; }
+  @media (max-width: 300px) {
+    .f6z5 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f6z5 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f6z5 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f6z5 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f7z5 {
+  background-position: left  -576px top -341.33333px; }
+  @media (max-width: 300px) {
+    .f7z5 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f7z5 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f7z5 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f7z5 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f8z5 {
+  background-position: left  -672px top -341.33333px; }
+  @media (max-width: 300px) {
+    .f8z5 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f8z5 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f8z5 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f8z5 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f1z6 {
+  background-position: left  0px top -426.66667px; }
+  @media (max-width: 300px) {
+    .f1z6 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f1z6 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f1z6 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f1z6 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f2z6 {
+  background-position: left  -96px top -426.66667px; }
+  @media (max-width: 300px) {
+    .f2z6 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f2z6 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f2z6 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f2z6 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f3z6 {
+  background-position: left  -192px top -426.66667px; }
+  @media (max-width: 300px) {
+    .f3z6 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f3z6 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f3z6 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f3z6 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f4z6 {
+  background-position: left  -288px top -426.66667px; }
+  @media (max-width: 300px) {
+    .f4z6 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f4z6 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f4z6 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f4z6 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f5z6 {
+  background-position: left  -384px top -426.66667px; }
+  @media (max-width: 300px) {
+    .f5z6 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f5z6 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f5z6 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f5z6 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f6z6 {
+  background-position: left  -480px top -426.66667px; }
+  @media (max-width: 300px) {
+    .f6z6 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f6z6 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f6z6 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f6z6 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f7z6 {
+  background-position: left  -576px top -426.66667px; }
+  @media (max-width: 300px) {
+    .f7z6 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f7z6 {
+      transform: skewY(10deg);
+      transform-origin: 0 100%;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f7z6 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f7z6 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+.f8z6 {
+  background-position: left  -672px top -426.66667px; }
+  @media (max-width: 300px) {
+    .f8z6 {
+      /*--to będzie harmonijka--*/
+      max-width: 11.875vw;
+      max-height: 8.33333vh; } }
+  @media (min-width: 300px) and (max-width: 788px) {
+    .f8z6 {
+      transform: skewY(-10deg);
+      transform-origin: 100% 0;
+      /*--to będzie harmonijka--*/
+      width: 11.875vw;
+      height: 85.33333px; }
+      .f8z6 .reflex {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, transparent 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
+        /* IE6-9 */ } }
+  @media (min-width: 788px) {
+    .f8z6 {
+      /*--to będzie harmonijka--*/
+      width: 96px;
+      height: 85.33333px; } }
+
+/*# sourceMappingURL=main01.css.map */

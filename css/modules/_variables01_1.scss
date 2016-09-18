@@ -1,0 +1,75 @@
+$num-cols: 8;
+$num-rows: 6;
+
+$num-fragment: $num-cols * $num-rows;
+
+$img-width: 768px;
+$img-height: 512px;
+
+$fragment-width: $img-width/$num-cols;
+
+$degree:  10deg;
+$deg-horizontal: 5deg;
+
+@mixin assembling-map($col-index) {
+
+    @if ($col-index)%2==0 { // dla nieparzystych kolumn
+//      animation: down-anime 1s 1;
+      transform: skewY(-$degree);
+      transform-origin: 100% 0;
+      & .reflex {
+        @include gradient-reflex-dark(left, right);
+      }
+    } @else {
+//      animation: up-anime 1s 1;
+      transform: skewY($degree);
+//      transform: perspective(400px) rotateX(-10deg);
+      transform-origin: 0 100%;
+      & .reflex {
+        @include gradient-reflex-bright(left, right);
+      }
+    }
+  }
+
+@mixin gradient-reflex-bright($position, $pos-opposite) { // np. left, right
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+  background: -moz-linear-gradient($position,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.35) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient($position,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.35) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to $pos-opposite,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.35) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#66ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin gradient-reflex-dark($position, $pos-opposite) { // np. left, right
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.4+0,0+100;White+to+Transparent */
+  background: -moz-linear-gradient($position,  rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.05) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient($position,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0.05) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to $pos-opposite,  rgba(0,0,0,0.35) 0%,rgba(0,0,0,0.05) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+@mixin assembling-map-horizontal($row-index) {
+
+  @if ($row-index)%2==0 { // dla nieparzystych kolumn
+    //      animation: down-anime 1s 1;
+    transform: skewX(-$deg-horizontal);
+    transform-origin: 100% 0;
+    & .reflex {
+      @include gradient-reflex-dark(top, bottom);
+    }
+  } @else {
+    //      animation: up-anime 1s 1;
+    transform: skewX($deg-horizontal);
+    //      transform: perspective(400px) rotateX(-10deg);
+    transform-origin: 0 100%;
+    & .reflex {
+      @include gradient-reflex-bright(top, bottom);
+    }
+  }
+}
+
+
+
+
+
+
+

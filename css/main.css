@@ -30,4 +30,107 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@keyframes plus-anime {
+  0% {
+    transform: perspective(400px) rotateX(0deg); }
+  50% {
+    transform: perspective(400px) rotateX(10deg);
+    box-shadow: 0 5px 8px -4px black; }
+  100% {
+    transform: perspective(400px) rotateX(0deg); } }
+
+@keyframes minus-anime {
+  0% {
+    transform: perspective(400px) rotateX(0deg); }
+  50% {
+    transform: perspective(400px) rotateX(-10deg);
+    box-shadow: 0 -5px 8px -4px black; }
+  100% {
+    transform: perspective(400px) rotateX(0deg); } }
+
+body {
+  background-color: black; }
+
+.container4imgs {
+  margin: 5px auto;
+  transform-style: preserve-3d;
+  border: 10px solid whitesmoke; }
+
+.fragment {
+  width: 25%;
+  height: 33.33333%;
+  background-color: aquamarine;
+  background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+  float: left; }
+
+.f1z1 {
+  background-position: left  0px top 0px; }
+  .f1z1:hover {
+    animation: plus-anime 1s 1; }
+
+.f2z1 {
+  background-position: left  -192px top 0px; }
+  .f2z1:hover {
+    animation: minus-anime 1s 1; }
+
+.f3z1 {
+  background-position: left  -384px top 0px; }
+  .f3z1:hover {
+    animation: plus-anime 1s 1; }
+
+.f4z1 {
+  background-position: left  -576px top 0px; }
+  .f4z1:hover {
+    animation: minus-anime 1s 1; }
+
+.f1z2 {
+  background-position: left  0px top -170.66667px; }
+  .f1z2:hover {
+    animation: minus-anime 1s 1; }
+
+.f2z2 {
+  background-position: left  -192px top -170.66667px; }
+  .f2z2:hover {
+    animation: plus-anime 1s 1; }
+
+.f3z2 {
+  background-position: left  -384px top -170.66667px; }
+  .f3z2:hover {
+    animation: minus-anime 1s 1; }
+
+.f4z2 {
+  background-position: left  -576px top -170.66667px; }
+  .f4z2:hover {
+    animation: plus-anime 1s 1; }
+
+.f1z3 {
+  background-position: left  0px top -341.33333px; }
+  .f1z3:hover {
+    animation: plus-anime 1s 1; }
+
+.f2z3 {
+  background-position: left  -192px top -341.33333px; }
+  .f2z3:hover {
+    animation: minus-anime 1s 1; }
+
+.f3z3 {
+  background-position: left  -384px top -341.33333px; }
+  .f3z3:hover {
+    animation: plus-anime 1s 1; }
+
+.f4z3 {
+  background-position: left  -576px top -341.33333px; }
+  .f4z3:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 798px) {
+  .container4imgs {
+    width: 100vw;
+    height: 66.66667vw; } }
+
+@media (min-width: 768px) {
+  .container4imgs {
+    width: 768px;
+    height: 512px; } }
+
 /*# sourceMappingURL=main.css.map */

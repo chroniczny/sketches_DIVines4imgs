@@ -9,26 +9,24 @@
     margin: auto;
 
     .row {
-
       &::after, // taki zagnieżdżony clearfix ;))
       &::before {
         content: "";
         display: table;
         clear: both;
       }
-      // KOLUMNY!!!
+      /* --- KOLUMNY!!! --- */
       [class*='col-'] {
         float: left;
-        main-height: 1px;
+        min-height: 1px;
         margin: 0; //dla kolumn zeruję marginesy...
         padding: $gutter-size; // gutter
         // dla kolumny bierze rozmiar z krawędzią
         box-sizing: border-box;
-
       }
 
       @for $i from 1 through $col-count {
-        // through wylącznie to włącznie
+        // 'through' wylącznie 'to' włącznie
         .col-#{$i} {
           width: 100%; // podeście mobile first - zaczyamy od phona
           float: left;
