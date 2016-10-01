@@ -1,0 +1,334 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@keyframes plus-anime {
+  0% {
+    transform: perspective(400px) rotateX(0deg); }
+  50% {
+    transform: perspective(400px) rotateX(10deg);
+    box-shadow: 0 5px 8px -4px black; }
+  100% {
+    transform: perspective(400px) rotateX(0deg); } }
+
+@keyframes minus-anime {
+  0% {
+    transform: perspective(400px) rotateX(0deg); }
+  50% {
+    transform: perspective(400px) rotateX(-10deg);
+    box-shadow: 0 -5px 8px -4px black; }
+  100% {
+    transform: perspective(400px) rotateX(0deg); } }
+
+body {
+  background-color: black; }
+
+.containerScope {
+  margin: 5px auto;
+  transform-style: preserve-3d;
+  border: 10px solid whitesmoke;
+  perspective: 300px;
+  overflow: hidden; }
+  .containerScope > div {
+    box-sizing: border-box;
+    width: 12.5%;
+    height: 16.66667%;
+    background-color: greenyellow;
+    background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+    float: left;
+    position: relative;
+    overflow: hidden; }
+    .containerScope > div > div {
+      width: 160%;
+      height: 160%;
+      position: absolute;
+      left: -30%;
+      top: -32%; }
+
+.reflexion {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,1+8,0+41,0+100 */
+  background: -moz-radial-gradient(center, ellipse cover, white 0%, white 3%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, white 0%, white 3%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, white 0%, white 3%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.red-0 {
+  background-color: red;
+  opacity: 1;
+  zoom: 1/48; }
+
+.red-1 {
+  background-color: red;
+  opacity: 0.9;
+  zoom: 1/48; }
+
+.red-2 {
+  background-color: red;
+  opacity: 0.8;
+  zoom: 1/48; }
+
+.red-3 {
+  background-color: red;
+  opacity: 0.7;
+  zoom: 1/48; }
+
+.red-4 {
+  background-color: red;
+  opacity: 0.6;
+  zoom: 1/48; }
+
+.red-5 {
+  background-color: red;
+  opacity: 0.5;
+  zoom: 1/48; }
+
+.red-6 {
+  background-color: red;
+  opacity: 0.4;
+  zoom: 1/48; }
+
+.red-7 {
+  background-color: red;
+  opacity: 0.3;
+  zoom: 1/48; }
+
+.red-8 {
+  background-color: red;
+  opacity: 0.2;
+  zoom: 1/48; }
+
+#f1z1 {
+  background-position: left  0px top 0px;
+  transition: all 1s; }
+
+#f2z1 {
+  background-position: left  -96px top 0px;
+  transition: all 1s; }
+
+#f3z1 {
+  background-position: left  -192px top 0px;
+  transition: all 1s; }
+
+#f4z1 {
+  background-position: left  -288px top 0px;
+  transition: all 1s; }
+
+#f5z1 {
+  background-position: left  -384px top 0px;
+  transition: all 1s; }
+
+#f6z1 {
+  background-position: left  -480px top 0px;
+  transition: all 1s; }
+
+#f7z1 {
+  background-position: left  -576px top 0px;
+  transition: all 1s; }
+
+#f8z1 {
+  background-position: left  -672px top 0px;
+  transition: all 1s; }
+
+#f1z2 {
+  background-position: left  0px top -85.33333px;
+  transition: all 1s; }
+
+#f2z2 {
+  background-position: left  -96px top -85.33333px;
+  transition: all 1s; }
+
+#f3z2 {
+  background-position: left  -192px top -85.33333px;
+  transition: all 1s; }
+
+#f4z2 {
+  background-position: left  -288px top -85.33333px;
+  transition: all 1s; }
+
+#f5z2 {
+  background-position: left  -384px top -85.33333px;
+  transition: all 1s; }
+
+#f6z2 {
+  background-position: left  -480px top -85.33333px;
+  transition: all 1s; }
+
+#f7z2 {
+  background-position: left  -576px top -85.33333px;
+  transition: all 1s; }
+
+#f8z2 {
+  background-position: left  -672px top -85.33333px;
+  transition: all 1s; }
+
+#f1z3 {
+  background-position: left  0px top -170.66667px;
+  transition: all 1s; }
+
+#f2z3 {
+  background-position: left  -96px top -170.66667px;
+  transition: all 1s; }
+
+#f3z3 {
+  background-position: left  -192px top -170.66667px;
+  transition: all 1s; }
+
+#f4z3 {
+  background-position: left  -288px top -170.66667px;
+  transition: all 1s; }
+
+#f5z3 {
+  background-position: left  -384px top -170.66667px;
+  transition: all 1s; }
+
+#f6z3 {
+  background-position: left  -480px top -170.66667px;
+  transition: all 1s; }
+
+#f7z3 {
+  background-position: left  -576px top -170.66667px;
+  transition: all 1s; }
+
+#f8z3 {
+  background-position: left  -672px top -170.66667px;
+  transition: all 1s; }
+
+#f1z4 {
+  background-position: left  0px top -256px;
+  transition: all 1s; }
+
+#f2z4 {
+  background-position: left  -96px top -256px;
+  transition: all 1s; }
+
+#f3z4 {
+  background-position: left  -192px top -256px;
+  transition: all 1s; }
+
+#f4z4 {
+  background-position: left  -288px top -256px;
+  transition: all 1s; }
+
+#f5z4 {
+  background-position: left  -384px top -256px;
+  transition: all 1s; }
+
+#f6z4 {
+  background-position: left  -480px top -256px;
+  transition: all 1s; }
+
+#f7z4 {
+  background-position: left  -576px top -256px;
+  transition: all 1s; }
+
+#f8z4 {
+  background-position: left  -672px top -256px;
+  transition: all 1s; }
+
+#f1z5 {
+  background-position: left  0px top -341.33333px;
+  transition: all 1s; }
+
+#f2z5 {
+  background-position: left  -96px top -341.33333px;
+  transition: all 1s; }
+
+#f3z5 {
+  background-position: left  -192px top -341.33333px;
+  transition: all 1s; }
+
+#f4z5 {
+  background-position: left  -288px top -341.33333px;
+  transition: all 1s; }
+
+#f5z5 {
+  background-position: left  -384px top -341.33333px;
+  transition: all 1s; }
+
+#f6z5 {
+  background-position: left  -480px top -341.33333px;
+  transition: all 1s; }
+
+#f7z5 {
+  background-position: left  -576px top -341.33333px;
+  transition: all 1s; }
+
+#f8z5 {
+  background-position: left  -672px top -341.33333px;
+  transition: all 1s; }
+
+#f1z6 {
+  background-position: left  0px top -426.66667px;
+  transition: all 1s; }
+
+#f2z6 {
+  background-position: left  -96px top -426.66667px;
+  transition: all 1s; }
+
+#f3z6 {
+  background-position: left  -192px top -426.66667px;
+  transition: all 1s; }
+
+#f4z6 {
+  background-position: left  -288px top -426.66667px;
+  transition: all 1s; }
+
+#f5z6 {
+  background-position: left  -384px top -426.66667px;
+  transition: all 1s; }
+
+#f6z6 {
+  background-position: left  -480px top -426.66667px;
+  transition: all 1s; }
+
+#f7z6 {
+  background-position: left  -576px top -426.66667px;
+  transition: all 1s; }
+
+#f8z6 {
+  background-position: left  -672px top -426.66667px;
+  transition: all 1s; }
+
+@media (max-width: 798px) {
+  .containerScope {
+    width: 100vw;
+    height: 66.66667vw; } }
+
+@media (min-width: 768px) {
+  .containerScope {
+    width: 768px;
+    height: 512px; } }
+
+/*# sourceMappingURL=main00_SCOPE_00.css.map */

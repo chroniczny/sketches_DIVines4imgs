@@ -1,0 +1,76 @@
+$num-cols: 8;
+$num-rows: 6;
+
+$num-fragment: $num-cols * $num-rows;
+
+$img-width: 768px;
+$img-height: 512px;
+
+
+@keyframes plus-anime { // animacja dla np. nieparzystych kafelków wysuwa dół do przodu
+  0% {
+    transform: perspective(400px) rotateX(0deg);
+  }
+  50% {
+    transform: perspective(400px) rotateX(10deg);
+    box-shadow: 0 5px 8px -4px black;
+  }
+  100% {
+    transform: perspective(400px) rotateX(0deg);
+  }
+}
+
+@keyframes minus-anime { // animacja dla np. parzystych kafelków wysuwa górę do przodu
+  0% {
+    transform: perspective(400px) rotateX(0deg);
+  }
+  50% {
+    transform: perspective(400px) rotateX(-10deg);
+    box-shadow: 0 -5px 8px -4px black;
+  }
+  100% {
+    transform: perspective(400px) rotateX(0deg);
+  }
+}
+
+@mixin push-gap($col-index, $row-index) { // uzależniamy użycie plus- lub minus-anime od indexu x i y kafelka
+  // podwójna pętla robi jakby szachownicę
+  @if ($row-index)%2==0 {
+    @if ($row-index*$col-index - $col-index )%2==0 { // dla parzystych rzędów robię kolumny nieparzystymi
+      animation: plus-anime 1s 1;
+    } @else {
+      animation: minus-anime 1s 1;
+    }
+  } @else { // dla nieparzystych rzędów kolumny zacnę od będą parzyste
+    @if ($row-index*$col-index)%2==0 { //
+      animation: minus-anime 1s 1;
+    } @else {
+      animation: plus-anime 1s 1;
+    }
+  }
+}
+
+@mixin bum1 ($col-index, $row-index) {
+  @if ($row-index)%2==0 {
+    @if ($row-index*$col-index - $col-index )%2==0 { // dla parzystych rzędów robię kolumny nieparzystymi
+      transform: translateZ(5px  * $row-index) rotateY(10deg * $row-index );
+    } @else {
+      transform: translateZ(-100px  * $row-index) rotateX(10deg * $col-index );
+    }
+  } @else { // dla nieparzystych rzędów kolumny ...
+    @if ($row-index*$col-index)%2==0 { //
+      transform: translateZ(-100px * $col-index) rotateY(10deg * $col-index );
+    } @else {
+      transform: translateZ(5px * $col-index) rotateX(10deg * $row-index );
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

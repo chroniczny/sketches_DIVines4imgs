@@ -1,0 +1,554 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@keyframes plus-anime {
+  0% {
+    transform: perspective(400px) rotateX(0deg); }
+  50% {
+    transform: perspective(400px) rotateX(10deg);
+    box-shadow: 0 5px 8px -4px black; }
+  100% {
+    transform: perspective(400px) rotateX(0deg); } }
+
+@keyframes minus-anime {
+  0% {
+    transform: perspective(400px) rotateX(0deg); }
+  50% {
+    transform: perspective(400px) rotateX(-10deg);
+    box-shadow: 0 -5px 8px -4px black; }
+  100% {
+    transform: perspective(400px) rotateX(0deg); } }
+
+.container4imgs {
+  margin: 5px auto;
+  transform-style: preserve-3d;
+  border: 10px solid whitesmoke;
+  perspective: 300px; }
+
+.fragment {
+  width: 12.5%;
+  height: 16.66667%;
+  background-color: red;
+  background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+  float: left; }
+
+.f1z1 {
+  background-position: left  0px top 0px; }
+  .f1z1:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum1z1 {
+    transform: translateZ(5px) rotateX(10deg);
+    filter: grayscale(5%) blur(1px); } }
+
+.f2z1 {
+  background-position: left  -96px top 0px; }
+  .f2z1:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum2z1 {
+    transform: translateZ(-200px) rotateY(20deg);
+    filter: grayscale(10%) blur(2px); } }
+
+.f3z1 {
+  background-position: left  -192px top 0px; }
+  .f3z1:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum3z1 {
+    transform: translateZ(15px) rotateX(10deg);
+    filter: grayscale(15%) blur(3px); } }
+
+.f4z1 {
+  background-position: left  -288px top 0px; }
+  .f4z1:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum4z1 {
+    transform: translateZ(-400px) rotateY(40deg);
+    filter: grayscale(20%) blur(4px); } }
+
+.f5z1 {
+  background-position: left  -384px top 0px; }
+  .f5z1:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum5z1 {
+    transform: translateZ(25px) rotateX(10deg);
+    filter: grayscale(25%) blur(5px); } }
+
+.f6z1 {
+  background-position: left  -480px top 0px; }
+  .f6z1:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum6z1 {
+    transform: translateZ(-600px) rotateY(60deg);
+    filter: grayscale(30%) blur(6px); } }
+
+.f7z1 {
+  background-position: left  -576px top 0px; }
+  .f7z1:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum7z1 {
+    transform: translateZ(35px) rotateX(10deg);
+    filter: grayscale(35%) blur(7px); } }
+
+.f8z1 {
+  background-position: left  -672px top 0px; }
+  .f8z1:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum8z1 {
+    transform: translateZ(-800px) rotateY(80deg);
+    filter: grayscale(40%) blur(8px); } }
+
+.f1z2 {
+  background-position: left  0px top -85.33333px; }
+  .f1z2:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum1z2 {
+    transform: translateZ(-200px) rotateX(10deg);
+    filter: grayscale(10%) blur(1px); } }
+
+.f2z2 {
+  background-position: left  -96px top -85.33333px; }
+  .f2z2:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum2z2 {
+    transform: translateZ(10px) rotateY(20deg);
+    filter: grayscale(20%) blur(2px); } }
+
+.f3z2 {
+  background-position: left  -192px top -85.33333px; }
+  .f3z2:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum3z2 {
+    transform: translateZ(-200px) rotateX(30deg);
+    filter: grayscale(30%) blur(3px); } }
+
+.f4z2 {
+  background-position: left  -288px top -85.33333px; }
+  .f4z2:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum4z2 {
+    transform: translateZ(10px) rotateY(20deg);
+    filter: grayscale(40%) blur(4px); } }
+
+.f5z2 {
+  background-position: left  -384px top -85.33333px; }
+  .f5z2:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum5z2 {
+    transform: translateZ(-200px) rotateX(50deg);
+    filter: grayscale(50%) blur(5px); } }
+
+.f6z2 {
+  background-position: left  -480px top -85.33333px; }
+  .f6z2:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum6z2 {
+    transform: translateZ(10px) rotateY(20deg);
+    filter: grayscale(60%) blur(6px); } }
+
+.f7z2 {
+  background-position: left  -576px top -85.33333px; }
+  .f7z2:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum7z2 {
+    transform: translateZ(-200px) rotateX(70deg);
+    filter: grayscale(70%) blur(7px); } }
+
+.f8z2 {
+  background-position: left  -672px top -85.33333px; }
+  .f8z2:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum8z2 {
+    transform: translateZ(10px) rotateY(20deg);
+    filter: grayscale(80%) blur(8px); } }
+
+.f1z3 {
+  background-position: left  0px top -170.66667px; }
+  .f1z3:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum1z3 {
+    transform: translateZ(5px) rotateX(30deg);
+    filter: grayscale(15%) blur(1px); } }
+
+.f2z3 {
+  background-position: left  -96px top -170.66667px; }
+  .f2z3:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum2z3 {
+    transform: translateZ(-200px) rotateY(20deg);
+    filter: grayscale(30%) blur(2px); } }
+
+.f3z3 {
+  background-position: left  -192px top -170.66667px; }
+  .f3z3:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum3z3 {
+    transform: translateZ(15px) rotateX(30deg);
+    filter: grayscale(45%) blur(3px); } }
+
+.f4z3 {
+  background-position: left  -288px top -170.66667px; }
+  .f4z3:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum4z3 {
+    transform: translateZ(-400px) rotateY(40deg);
+    filter: grayscale(60%) blur(4px); } }
+
+.f5z3 {
+  background-position: left  -384px top -170.66667px; }
+  .f5z3:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum5z3 {
+    transform: translateZ(25px) rotateX(30deg);
+    filter: grayscale(75%) blur(5px); } }
+
+.f6z3 {
+  background-position: left  -480px top -170.66667px; }
+  .f6z3:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum6z3 {
+    transform: translateZ(-600px) rotateY(60deg);
+    filter: grayscale(90%) blur(6px); } }
+
+.f7z3 {
+  background-position: left  -576px top -170.66667px; }
+  .f7z3:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum7z3 {
+    transform: translateZ(35px) rotateX(30deg);
+    filter: grayscale(105%) blur(7px); } }
+
+.f8z3 {
+  background-position: left  -672px top -170.66667px; }
+  .f8z3:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum8z3 {
+    transform: translateZ(-800px) rotateY(80deg);
+    filter: grayscale(120%) blur(8px); } }
+
+.f1z4 {
+  background-position: left  0px top -256px; }
+  .f1z4:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum1z4 {
+    transform: translateZ(-400px) rotateX(10deg);
+    filter: grayscale(20%) blur(1px); } }
+
+.f2z4 {
+  background-position: left  -96px top -256px; }
+  .f2z4:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum2z4 {
+    transform: translateZ(20px) rotateY(40deg);
+    filter: grayscale(40%) blur(2px); } }
+
+.f3z4 {
+  background-position: left  -192px top -256px; }
+  .f3z4:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum3z4 {
+    transform: translateZ(-400px) rotateX(30deg);
+    filter: grayscale(60%) blur(3px); } }
+
+.f4z4 {
+  background-position: left  -288px top -256px; }
+  .f4z4:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum4z4 {
+    transform: translateZ(20px) rotateY(40deg);
+    filter: grayscale(80%) blur(4px); } }
+
+.f5z4 {
+  background-position: left  -384px top -256px; }
+  .f5z4:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum5z4 {
+    transform: translateZ(-400px) rotateX(50deg);
+    filter: grayscale(100%) blur(5px); } }
+
+.f6z4 {
+  background-position: left  -480px top -256px; }
+  .f6z4:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum6z4 {
+    transform: translateZ(20px) rotateY(40deg);
+    filter: grayscale(120%) blur(6px); } }
+
+.f7z4 {
+  background-position: left  -576px top -256px; }
+  .f7z4:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum7z4 {
+    transform: translateZ(-400px) rotateX(70deg);
+    filter: grayscale(140%) blur(7px); } }
+
+.f8z4 {
+  background-position: left  -672px top -256px; }
+  .f8z4:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum8z4 {
+    transform: translateZ(20px) rotateY(40deg);
+    filter: grayscale(160%) blur(8px); } }
+
+.f1z5 {
+  background-position: left  0px top -341.33333px; }
+  .f1z5:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum1z5 {
+    transform: translateZ(5px) rotateX(50deg);
+    filter: grayscale(25%) blur(1px); } }
+
+.f2z5 {
+  background-position: left  -96px top -341.33333px; }
+  .f2z5:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum2z5 {
+    transform: translateZ(-200px) rotateY(20deg);
+    filter: grayscale(50%) blur(2px); } }
+
+.f3z5 {
+  background-position: left  -192px top -341.33333px; }
+  .f3z5:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum3z5 {
+    transform: translateZ(15px) rotateX(50deg);
+    filter: grayscale(75%) blur(3px); } }
+
+.f4z5 {
+  background-position: left  -288px top -341.33333px; }
+  .f4z5:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum4z5 {
+    transform: translateZ(-400px) rotateY(40deg);
+    filter: grayscale(100%) blur(4px); } }
+
+.f5z5 {
+  background-position: left  -384px top -341.33333px; }
+  .f5z5:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum5z5 {
+    transform: translateZ(25px) rotateX(50deg);
+    filter: grayscale(125%) blur(5px); } }
+
+.f6z5 {
+  background-position: left  -480px top -341.33333px; }
+  .f6z5:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum6z5 {
+    transform: translateZ(-600px) rotateY(60deg);
+    filter: grayscale(150%) blur(6px); } }
+
+.f7z5 {
+  background-position: left  -576px top -341.33333px; }
+  .f7z5:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum7z5 {
+    transform: translateZ(35px) rotateX(50deg);
+    filter: grayscale(175%) blur(7px); } }
+
+.f8z5 {
+  background-position: left  -672px top -341.33333px; }
+  .f8z5:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum8z5 {
+    transform: translateZ(-800px) rotateY(80deg);
+    filter: grayscale(200%) blur(8px); } }
+
+.f1z6 {
+  background-position: left  0px top -426.66667px; }
+  .f1z6:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum1z6 {
+    transform: translateZ(-600px) rotateX(10deg);
+    filter: grayscale(30%) blur(1px); } }
+
+.f2z6 {
+  background-position: left  -96px top -426.66667px; }
+  .f2z6:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum2z6 {
+    transform: translateZ(30px) rotateY(60deg);
+    filter: grayscale(60%) blur(2px); } }
+
+.f3z6 {
+  background-position: left  -192px top -426.66667px; }
+  .f3z6:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum3z6 {
+    transform: translateZ(-600px) rotateX(30deg);
+    filter: grayscale(90%) blur(3px); } }
+
+.f4z6 {
+  background-position: left  -288px top -426.66667px; }
+  .f4z6:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum4z6 {
+    transform: translateZ(30px) rotateY(60deg);
+    filter: grayscale(120%) blur(4px); } }
+
+.f5z6 {
+  background-position: left  -384px top -426.66667px; }
+  .f5z6:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum5z6 {
+    transform: translateZ(-600px) rotateX(50deg);
+    filter: grayscale(150%) blur(5px); } }
+
+.f6z6 {
+  background-position: left  -480px top -426.66667px; }
+  .f6z6:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum6z6 {
+    transform: translateZ(30px) rotateY(60deg);
+    filter: grayscale(180%) blur(6px); } }
+
+.f7z6 {
+  background-position: left  -576px top -426.66667px; }
+  .f7z6:hover {
+    animation: minus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum7z6 {
+    transform: translateZ(-600px) rotateX(70deg);
+    filter: grayscale(210%) blur(7px); } }
+
+.f8z6 {
+  background-position: left  -672px top -426.66667px; }
+  .f8z6:hover {
+    animation: plus-anime 1s 1; }
+
+@media (max-width: 800px) {
+  .bum8z6 {
+    transform: translateZ(30px) rotateY(60deg);
+    filter: grayscale(240%) blur(8px); } }
+
+@media (max-width: 798px) {
+  .container4imgs {
+    width: 100vw;
+    height: 66.66667vw; } }
+
+@media (min-width: 768px) {
+  .container4imgs {
+    width: 768px;
+    height: 512px; } }
+
+/*# sourceMappingURL=main00_bum.css.map */
