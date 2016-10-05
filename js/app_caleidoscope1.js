@@ -3,7 +3,6 @@
  */
 $(document).ready(function () {
 
-
     function caleidoscope() {
 
         var scene = $('#caleidoscope');
@@ -24,7 +23,6 @@ $(document).ready(function () {
             var currentMousePositionY = event.clientY;
 
             console.log('22');
-            //event.stopPropagation();
 
             for (var r = 1; r <= rows; r++) {
                 for (var k = 1; k <= columns; k++) {
@@ -44,10 +42,6 @@ $(document).ready(function () {
                     }
                 }
             }
-
-
-            //var mouseMoveX = currentMousePositionX - oldMousePositionX; // old
-            //var mouseMoveY = currentMousePositionY - oldMousePositionY;
 
             elem.each(function (idx, el) {
 
@@ -87,16 +81,6 @@ $(document).ready(function () {
                         }
                     }
                 }
-
-
-                //$(this).children().css({
-                //    'left': currentMousePositionX,
-                //    'top': currentMousePositionY
-                //});
-
-
-                //oldMousePositionX = currentMousePositionX;
-                //oldMousePositionY = currentMousePositionY;
             })
         });
 
@@ -105,10 +89,6 @@ $(document).ready(function () {
             elem.children().attr('style', "");
             scene.addClass('noPuzling');
         })
-
     }
-
     caleidoscope();
-
-
 });

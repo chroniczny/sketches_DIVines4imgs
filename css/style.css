@@ -1,0 +1,427 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.grid-container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto; }
+  .grid-container .row {
+    /* --- KOLUMNY!!! --- */ }
+    .grid-container .row::after, .grid-container .row::before {
+      content: "";
+      display: table;
+      clear: both; }
+    .grid-container .row [class*='col-'] {
+      float: left;
+      min-height: 1px;
+      margin: 0;
+      padding: 0px;
+      box-sizing: border-box; }
+    .grid-container .row .col-1 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-1 {
+          width: 8.33333%; } }
+    .grid-container .row .col-2 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-2 {
+          width: 16.66667%; } }
+    .grid-container .row .col-3 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-3 {
+          width: 25%; } }
+    .grid-container .row .col-4 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-4 {
+          width: 33.33333%; } }
+    .grid-container .row .col-5 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-5 {
+          width: 41.66667%; } }
+    .grid-container .row .col-6 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-6 {
+          width: 50%; } }
+    .grid-container .row .col-7 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-7 {
+          width: 58.33333%; } }
+    .grid-container .row .col-8 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-8 {
+          width: 66.66667%; } }
+    .grid-container .row .col-9 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-9 {
+          width: 75%; } }
+    .grid-container .row .col-10 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-10 {
+          width: 83.33333%; } }
+    .grid-container .row .col-11 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-11 {
+          width: 91.66667%; } }
+    .grid-container .row .col-12 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 450px) {
+        .grid-container .row .col-12 {
+          width: 100%; } }
+
+body {
+  background-color: lightgrey;
+  font-family: "Calibri Light", Arial, sans-serif; }
+
+nav {
+  width: 100%;
+  max-width: 800px;
+  height: 40px;
+  background-color: black;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  nav ul li {
+    color: white;
+    width: 30vw;
+    height: 100%;
+    margin-left: 5vh; }
+    nav ul li :hover {
+      color: red; }
+
+.row {
+  margin: 0 auto; }
+
+.eyebrows {
+  height: 10vh;
+  background-color: white; }
+
+.forEyes {
+  height: 15vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between; }
+  .forEyes .eye {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    border: 3px solid;
+    border-top-color: lightgrey;
+    border-bottom-color: white;
+    border-left: white;
+    border-right: white; }
+    .forEyes .eye .plus {
+      width: 20%;
+      height: 20%;
+      position: relative; }
+      .forEyes .eye .plus .eyeLine {
+        position: absolute;
+        top: 5px;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background-color: lightgrey; }
+      .forEyes .eye .plus .eyeDot {
+        position: absolute;
+        top: 5px;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background-color: lightgrey;
+        z-index: 2;
+        transform: rotate(90deg); }
+
+.forNose {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5vh; }
+  .forNose .chick {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto; }
+    .forNose .chick h3 {
+      color: lightgrey; }
+    .forNose .chick:hover {
+      border: 1px solid #b21031;
+      background-color: #b21031;
+      transition: all 0.5s; }
+      .forNose .chick:hover h3 {
+        color: white; }
+  .forNose .nose {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    background-image: url("../images/jinn_single100.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    -webkit-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+    box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5); }
+    .forNose .nose .lightDot {
+      width: 10%;
+      height: 100%;
+      transform: rotate(0deg); }
+      .forNose .nose .lightDot div {
+        width: 100%;
+        height: 10%;
+        background: -moz-radial-gradient(center, ellipse cover, white 0%, white 2%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, white 0%, white 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, white 0%, white 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */ }
+    .forNose .nose:hover .lightDot {
+      transform: rotate(360deg);
+      transition: all 1s; }
+
+/*--- content ABOUT --*/
+.about {
+  height: 20vh;
+  background-color: #b21031;
+  display: none; }
+  .about .bioText {
+    padding: 10px;
+    flex: 0 1 auto;
+    color: white;
+    font-family: "Calibri Light", Calibri, sans-serif;
+    text-align: center; }
+  .about .lip {
+    box-sizing: border-box;
+    flex: stretch;
+    background-color: red;
+    flex: 0 5 auto; }
+
+.forTopLips {
+  height: 5vh;
+  background-color: red; }
+
+.topTeeth, .bottomTeeth {
+  height: 15vh;
+  display: none;
+  background-color: #b21031; }
+  .topTeeth .lip, .bottomTeeth .lip {
+    box-sizing: border-box;
+    flex: stretch;
+    background-color: red; }
+  .topTeeth a, .bottomTeeth a {
+    flex: stretch;
+    flex: 0 1 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: lightgrey;
+    line-height: 3em; }
+    .topTeeth a .tooth, .bottomTeeth a .tooth {
+      background-color: lightgoldenrodyellow;
+      height: 100%; }
+    .topTeeth a:hover, .bottomTeeth a:hover {
+      position: relative;
+      color: whitesmoke; }
+      .topTeeth a:hover .tooth, .bottomTeeth a:hover .tooth {
+        background-color: transparent; }
+
+.topTeeth .tooth {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -webkit-box-shadow: inset 0px 6px 7px -3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 6px 7px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 6px 7px -3px rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+.bottomTeeth .tooth {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; }
+
+.mouth {
+  background-color: white;
+  padding: 10px 10px; }
+  .mouth:hover .about {
+    display: flex;
+    transition: all 2s ease; }
+  .mouth:hover .topTeeth, .mouth:hover .bottomTeeth {
+    display: flex;
+    transition: all 2s ease; }
+
+.forTopLips {
+  height: 4vh;
+  background-color: red;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: relative; }
+  .forTopLips div.reflex {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top: -4px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+30,ffffff+100&1+1,0+30,0+100 */
+    background: -moz-radial-gradient(center, ellipse cover, white 0%, white 2%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, white 0%, white 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, white 0%, white 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */ }
+  .forTopLips .lip {
+    height: 100%;
+    -webkit-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5); }
+
+.forBottomLips {
+  height: 4vh;
+  background-color: red;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  -webkit-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+  -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+  box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+  margin-bottom: 10px; }
+
+.hidden {
+  display: none; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: white; }
+  footer div {
+    margin-top: 2vh;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-top: 1px solid lightgrey;
+    -webkit-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer div h3 {
+      color: lightgrey; }
+
+section, footer {
+  -webkit-box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
+  -moz-box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
+  box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5); }
+
+@media (max-width: 270px) {
+  .forNose .nose {
+    max-width: 100px;
+    max-height: 100px; }
+  .forNose .chick {
+    display: none; }
+  nav ul {
+    display: block; }
+    nav ul li {
+      display: inline-block; } }
+
+@media (min-width: 270px) and (max-width: 340px) {
+  .forNose .nose {
+    max-width: 100px;
+    max-height: 100px; }
+  .forNose .chick {
+    max-width: 50px;
+    max-height: 50px; }
+  nav ul li {
+    display: none; } }
+
+@media (min-width: 340px) and (max-width: 450px) {
+  .forNose .nose {
+    max-width: 100px;
+    max-height: 100px; }
+  nav ul li {
+    display: none; } }
+
+@media (min-width: 450px) {
+  nav ul li {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,417 @@
+@import "../css/partials/reset";
+@import "../css/partials/grid";
+
+@include grid-system(12, 800px, 0px, 450px);
+//$col-count: 12, $max-width: 1200px, $gutter-size: 12px, $breakpoint-width: 800px
+
+$first-bckgr-color: white;
+$sketch-color: lightgrey;
+$mouth-color: red;
+$tooth-col: lightgoldenrodyellow;
+$tooth-shadow-col: darken(lightgoldenrodyellow, 10);
+$accent-color: darken(crimson, 9);
+
+$color1: darkorchid;
+$color2: mediumpurple;
+$color3: crimson;
+$color4: palevioletred;
+
+body {
+  background-color: $sketch-color;
+  font-family: "Calibri Light", Arial, sans-serif;
+}
+
+nav {
+  width: 100%;
+  max-width: 800px;
+  height: 40px;
+  background-color: black;
+  margin: 0 auto;
+
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    li {
+      color: $first-bckgr-color;
+      width: 30vw;
+      height: 100%;
+      margin-left: 5vh;
+      :hover {
+        color: $mouth-color;
+      }
+    }
+  }
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.eyebrows {
+  height: 10vh;
+  background-color: white;
+}
+
+.forEyes {
+  height: 15vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  .eye {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    border: 3px solid;
+    border-top-color: $sketch-color;
+    border-bottom-color: white;
+    border-left: white;
+    border-right: white;
+
+    .plus {
+      width: 20%;
+      height: 20%;
+      position: relative;
+      .eyeLine {
+        position: absolute;
+        top: 5px;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background-color: $sketch-color;
+      }
+      .eyeDot {
+        position: absolute;
+        top: 5px;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background-color: $sketch-color;
+        z-index: 2;
+
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
+
+.forNose {
+
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5vh;
+
+  .chick {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid $sketch-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    h3 {
+      color: $sketch-color;
+    }
+    &:hover {
+      border: 1px solid $accent-color;
+      background-color: $accent-color;
+      transition: all 0.5s;
+      h3 {
+        color: white;
+      }
+    }
+  }
+
+  .nose {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $sketch-color;
+    background-image: url("../images/jinn_single100.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+
+    -webkit-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+    box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+
+    .lightDot {
+      width: 10%;
+      height: 100%;
+      transform: rotate(0deg);
+      div {
+        width: 100%;
+        height: 10%;
+
+        background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 2%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 100%); /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+      }
+    }
+    &:hover {
+      .lightDot { // --------------z tego śledzenie myszki góra-dół
+        transform: rotate(360deg);
+        transition: all 1s;
+      }
+    }
+  }
+}
+
+/*--- content ABOUT --*/
+.about {
+  height: 20vh;
+  background-color: $accent-color;
+
+  display: none;
+  .bioText {
+    padding: 10px;
+    flex: 0 1 auto;
+
+    color: $first-bckgr-color;
+    font-family: "Calibri Light", Calibri, sans-serif;
+    text-align: center;
+  }
+  .lip {
+    box-sizing: border-box;
+    flex: stretch;
+    background-color: red;
+    flex: 0 5 auto;
+  }
+}
+
+.forTopLips {
+  height: 5vh;
+  background-color: red;
+}
+
+.topTeeth, .bottomTeeth {
+  height: 15vh;
+  display: none;
+  background-color: $accent-color;
+  .lip {
+    box-sizing: border-box;
+    flex: stretch;
+    background-color: red;
+  }
+
+  a {
+    flex: stretch;
+    flex: 0 1 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: $sketch-color;
+    line-height: 3em;
+    .tooth {
+      background-color: $tooth-col;
+      height: 100%;
+
+    }
+    &:hover {
+      position: relative;
+      color: whitesmoke;
+      .tooth {
+        background-color: rgba(0,0,0,0);
+      }
+    }
+  }
+
+}
+
+.topTeeth .tooth {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -webkit-box-shadow: inset 0px 6px 7px -3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 6px 7px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 6px 7px -3px rgba(0, 0, 0, 0.5);
+
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.bottomTeeth .tooth {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
+
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.mouth {
+  background-color: white;
+  padding: 10px 10px;
+  &:hover {
+    .about { //// klasa nadawana po najechaniu na "bio"
+      display: flex;
+      transition: all 2s ease;
+    }
+    .topTeeth, .bottomTeeth { // klasa nadawana po najechaniu na "tricks"
+      display: flex;
+      transition: all 2s ease;
+    }
+  }
+}
+
+.forTopLips {
+  height: 4vh;
+  background-color: red;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+  position: relative;
+  div.reflex {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top: -4px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+30,ffffff+100&1+1,0+30,0+100 */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 2%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+  }
+  .lip {
+    height: 100%;
+    -webkit-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+  }
+
+}
+
+.forBottomLips {
+  height: 4vh;
+  background-color: red;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  -webkit-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+  -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+  box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: white;
+  div {
+    margin-top: 2vh;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-top: 1px solid $sketch-color;
+
+    -webkit-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+    box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      color: $sketch-color;
+    }
+  }
+}
+
+section, footer {
+  -webkit-box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
+  -moz-box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
+  box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
+}
+
+@media (max-width: 270px) {
+  .forNose {
+    .nose {
+      max-width: 100px;
+      max-height: 100px;
+    }
+    .chick {
+      display: none;
+    }
+  }
+  nav {
+    ul {
+      display: block;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 270px) and (max-width: 340px) {
+  .forNose {
+    .nose {
+      max-width: 100px;
+      max-height: 100px;
+    }
+    .chick {
+      max-width: 50px;
+      max-height: 50px;
+    }
+  }
+  nav {
+    ul li {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 340px) and (max-width: 450px) {
+  .forNose {
+    .nose {
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
+  nav {
+    ul li {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 450px) {
+  nav {
+    ul li {
+      display: none;
+    }
+  }
+}

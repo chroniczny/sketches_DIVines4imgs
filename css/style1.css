@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.grid-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto; }
+  .grid-container .row {
+    /* --- KOLUMNY!!! --- */ }
+    .grid-container .row::after, .grid-container .row::before {
+      content: "";
+      display: table;
+      clear: both; }
+    .grid-container .row [class*='col-'] {
+      float: left;
+      min-height: 1px;
+      margin: 0;
+      padding: 6px;
+      box-sizing: border-box; }
+    .grid-container .row .col-1 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-1 {
+          width: 8.33333%; } }
+    .grid-container .row .col-2 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-2 {
+          width: 16.66667%; } }
+    .grid-container .row .col-3 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-3 {
+          width: 25%; } }
+    .grid-container .row .col-4 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-4 {
+          width: 33.33333%; } }
+    .grid-container .row .col-5 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-5 {
+          width: 41.66667%; } }
+    .grid-container .row .col-6 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-6 {
+          width: 50%; } }
+    .grid-container .row .col-7 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-7 {
+          width: 58.33333%; } }
+    .grid-container .row .col-8 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-8 {
+          width: 66.66667%; } }
+    .grid-container .row .col-9 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-9 {
+          width: 75%; } }
+    .grid-container .row .col-10 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-10 {
+          width: 83.33333%; } }
+    .grid-container .row .col-11 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-11 {
+          width: 91.66667%; } }
+    .grid-container .row .col-12 {
+      width: 100%;
+      float: left; }
+      @media (min-width: 400px) {
+        .grid-container .row .col-12 {
+          width: 100%; } }
+
+nav {
+  height: 2em;
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 100vw; }
+
+.about {
+  height: 40vh;
+  background-color: whitesmoke; }
+
+.row {
+  width: 90vw;
+  margin: 0 auto; }
+
+.hair {
+  height: 10vh;
+  background-color: aliceblue; }
+  .hair .oneHair {
+    background-color: darkblue;
+    transform: skewY(5deg);
+    height: 100%; }
+
+.eyebrows {
+  height: 10vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around; }
+  .eyebrows .brow {
+    background-color: darkblue;
+    transform: skewY(5deg);
+    height: 50%; }
+
+.forEyes {
+  height: 30vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between; }
+  .forEyes .eye {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 0 0 auto; }
+    .forEyes .eye .eyeCov {
+      width: 100%;
+      height: 0;
+      border-top: 74px solid lightseagreen;
+      border-top-left-radius: 74px;
+      border-top-right-radius: 74px;
+      background-color: lightseagreen; }
+    .forEyes .eye .eyeDot {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: darkslateblue;
+      z-index: 2; }
+  .forEyes .noseTop {
+    width: 0;
+    height: 0;
+    border-top: 80px solid lightseagreen;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: lightseagreen;
+    align-self: flex-end; }
+
+.forNose {
+  height: 10vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between; }
+  .forNose .chick {
+    width: 0;
+    height: 0;
+    border-top: 50px solid red;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: red; }
+  .forNose .noseL {
+    width: 0;
+    height: 0;
+    border-top: 50px solid lightseagreen;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; }
+  .forNose .noseR {
+    width: 0;
+    height: 0;
+    border-top: 50px solid lightseagreen;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; }
+  .forNose .noseBottom {
+    height: 50px;
+    background-color: lightseagreen; }
+
+.forTopLips {
+  height: 5vh;
+  background-color: red; }
+
+.topTeeth, .bottomTeeth {
+  height: 20vh;
+  display: flex; }
+  .topTeeth .lip, .bottomTeeth .lip {
+    flex: stretch;
+    background-color: red; }
+  .topTeeth .tooth, .bottomTeeth .tooth {
+    flex: stretch;
+    background-color: white;
+    border-left: solid 1px lightgoldenrodyellow;
+    border-right: solid 1px lightgoldenrodyellow;
+    border-bottom: solid 1px lightgoldenrodyellow; }
+
+.forBottomLips {
+  height: 5vh;
+  background-color: red;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px; }
+
+/*# sourceMappingURL=style1.css.map */

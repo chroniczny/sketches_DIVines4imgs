@@ -64,7 +64,7 @@ table {
     transform: perspective(400px) rotateX(0deg) rotateY(0deg);
     box-shadow: 0 0 0 0 black; } }
 
-.container4imgs {
+.containerZygzac {
   margin: 5px auto;
   transform-style: preserve-3d;
   border: 10px solid whitesmoke;
@@ -77,148 +77,152 @@ table {
   background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
   float: left; }
 
-.container4imgs:hover .f1z1 {
+.reflex {
+  width: 100%;
+  height: 100%; }
+
+.containerZygzac:hover .f1z1 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f2z1 {
+.containerZygzac:hover .f2z1 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f3z1 {
+.containerZygzac:hover .f3z1 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f4z1 {
+.containerZygzac:hover .f4z1 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f5z1 {
+.containerZygzac:hover .f5z1 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f6z1 {
+.containerZygzac:hover .f6z1 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f7z1 {
+.containerZygzac:hover .f7z1 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f8z1 {
+.containerZygzac:hover .f8z1 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f1z2 {
+.containerZygzac:hover .f1z2 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f2z2 {
+.containerZygzac:hover .f2z2 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f3z2 {
+.containerZygzac:hover .f3z2 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f4z2 {
+.containerZygzac:hover .f4z2 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f5z2 {
+.containerZygzac:hover .f5z2 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f6z2 {
+.containerZygzac:hover .f6z2 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f7z2 {
+.containerZygzac:hover .f7z2 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f8z2 {
+.containerZygzac:hover .f8z2 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f1z3 {
+.containerZygzac:hover .f1z3 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f2z3 {
+.containerZygzac:hover .f2z3 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f3z3 {
+.containerZygzac:hover .f3z3 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f4z3 {
+.containerZygzac:hover .f4z3 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f5z3 {
+.containerZygzac:hover .f5z3 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f6z3 {
+.containerZygzac:hover .f6z3 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f7z3 {
+.containerZygzac:hover .f7z3 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f8z3 {
+.containerZygzac:hover .f8z3 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f1z4 {
+.containerZygzac:hover .f1z4 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f2z4 {
+.containerZygzac:hover .f2z4 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f3z4 {
+.containerZygzac:hover .f3z4 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f4z4 {
+.containerZygzac:hover .f4z4 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f5z4 {
+.containerZygzac:hover .f5z4 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f6z4 {
+.containerZygzac:hover .f6z4 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f7z4 {
+.containerZygzac:hover .f7z4 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f8z4 {
+.containerZygzac:hover .f8z4 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f1z5 {
+.containerZygzac:hover .f1z5 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f2z5 {
+.containerZygzac:hover .f2z5 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f3z5 {
+.containerZygzac:hover .f3z5 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f4z5 {
+.containerZygzac:hover .f4z5 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f5z5 {
+.containerZygzac:hover .f5z5 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f6z5 {
+.containerZygzac:hover .f6z5 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f7z5 {
+.containerZygzac:hover .f7z5 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f8z5 {
+.containerZygzac:hover .f8z5 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f1z6 {
+.containerZygzac:hover .f1z6 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f2z6 {
+.containerZygzac:hover .f2z6 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f3z6 {
+.containerZygzac:hover .f3z6 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f4z6 {
+.containerZygzac:hover .f4z6 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f5z6 {
+.containerZygzac:hover .f5z6 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f6z6 {
+.containerZygzac:hover .f6z6 {
   animation: plus-anime 2s 1; }
 
-.container4imgs:hover .f7z6 {
+.containerZygzac:hover .f7z6 {
   animation: minus-anime 2s 1; }
 
-.container4imgs:hover .f8z6 {
+.containerZygzac:hover .f8z6 {
   animation: plus-anime 2s 1; }
 
 .f1z1 {
@@ -414,13 +418,13 @@ table {
   transition: all 1s; }
 
 @media (max-width: 798px) {
-  .container4imgs {
+  .containerZygzac {
     width: 100vw;
     height: 66.66667vw; } }
 
 @media (min-width: 768px) {
-  .container4imgs {
+  .containerZygzac {
     width: 768px;
     height: 512px; } }
 
-/*# sourceMappingURL=main00_bumRose01.css.map */
+/*# sourceMappingURL=main00_Zygzac.css.map */

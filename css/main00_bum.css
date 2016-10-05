@@ -48,16 +48,18 @@ table {
   100% {
     transform: perspective(400px) rotateX(0deg); } }
 
-.container4imgs {
+.containerBum {
   margin: 5px auto;
   transform-style: preserve-3d;
   border: 10px solid whitesmoke;
-  perspective: 300px; }
+  perspective: 300px;
+  overflow: hidden;
+  background-size: contain; }
 
 .fragment {
   width: 12.5%;
   height: 16.66667%;
-  background-color: red;
+  background-color: whitesmoke;
   background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
   float: left; }
 
@@ -68,8 +70,8 @@ table {
 
 @media (max-width: 800px) {
   .bum1z1 {
-    transform: translateZ(5px) rotateX(10deg);
-    filter: grayscale(5%) blur(1px); } }
+    transform: translateZ(10px) rotateX(15deg);
+    transition: all ease-out 0.6s; } }
 
 .f2z1 {
   background-position: left  -96px top 0px; }
@@ -78,8 +80,8 @@ table {
 
 @media (max-width: 800px) {
   .bum2z1 {
-    transform: translateZ(-200px) rotateY(20deg);
-    filter: grayscale(10%) blur(2px); } }
+    transform: translateZ(-800px) rotateY(20deg);
+    transition: all ease-out 0.6s; } }
 
 .f3z1 {
   background-position: left  -192px top 0px; }
@@ -88,8 +90,8 @@ table {
 
 @media (max-width: 800px) {
   .bum3z1 {
-    transform: translateZ(15px) rotateX(10deg);
-    filter: grayscale(15%) blur(3px); } }
+    transform: translateZ(30px) rotateX(15deg);
+    transition: all ease-out 0.6s; } }
 
 .f4z1 {
   background-position: left  -288px top 0px; }
@@ -98,8 +100,8 @@ table {
 
 @media (max-width: 800px) {
   .bum4z1 {
-    transform: translateZ(-400px) rotateY(40deg);
-    filter: grayscale(20%) blur(4px); } }
+    transform: translateZ(-1600px) rotateY(40deg);
+    transition: all ease-out 0.6s; } }
 
 .f5z1 {
   background-position: left  -384px top 0px; }
@@ -108,8 +110,8 @@ table {
 
 @media (max-width: 800px) {
   .bum5z1 {
-    transform: translateZ(25px) rotateX(10deg);
-    filter: grayscale(25%) blur(5px); } }
+    transform: translateZ(50px) rotateX(15deg);
+    transition: all ease-out 0.6s; } }
 
 .f6z1 {
   background-position: left  -480px top 0px; }
@@ -118,8 +120,8 @@ table {
 
 @media (max-width: 800px) {
   .bum6z1 {
-    transform: translateZ(-600px) rotateY(60deg);
-    filter: grayscale(30%) blur(6px); } }
+    transform: translateZ(-2400px) rotateY(60deg);
+    transition: all ease-out 0.6s; } }
 
 .f7z1 {
   background-position: left  -576px top 0px; }
@@ -128,8 +130,8 @@ table {
 
 @media (max-width: 800px) {
   .bum7z1 {
-    transform: translateZ(35px) rotateX(10deg);
-    filter: grayscale(35%) blur(7px); } }
+    transform: translateZ(70px) rotateX(15deg);
+    transition: all ease-out 0.6s; } }
 
 .f8z1 {
   background-position: left  -672px top 0px; }
@@ -138,8 +140,8 @@ table {
 
 @media (max-width: 800px) {
   .bum8z1 {
-    transform: translateZ(-800px) rotateY(80deg);
-    filter: grayscale(40%) blur(8px); } }
+    transform: translateZ(-3200px) rotateY(80deg);
+    transition: all ease-out 0.6s; } }
 
 .f1z2 {
   background-position: left  0px top -85.33333px; }
@@ -149,7 +151,7 @@ table {
 @media (max-width: 800px) {
   .bum1z2 {
     transform: translateZ(-200px) rotateX(10deg);
-    filter: grayscale(10%) blur(1px); } }
+    transition: all ease-out 0.6s; } }
 
 .f2z2 {
   background-position: left  -96px top -85.33333px; }
@@ -158,8 +160,8 @@ table {
 
 @media (max-width: 800px) {
   .bum2z2 {
-    transform: translateZ(10px) rotateY(20deg);
-    filter: grayscale(20%) blur(2px); } }
+    transform: translateZ(20px) rotateY(30deg);
+    transition: all ease-out 0.6s; } }
 
 .f3z2 {
   background-position: left  -192px top -85.33333px; }
@@ -169,7 +171,7 @@ table {
 @media (max-width: 800px) {
   .bum3z2 {
     transform: translateZ(-200px) rotateX(30deg);
-    filter: grayscale(30%) blur(3px); } }
+    transition: all ease-out 0.6s; } }
 
 .f4z2 {
   background-position: left  -288px top -85.33333px; }
@@ -178,8 +180,8 @@ table {
 
 @media (max-width: 800px) {
   .bum4z2 {
-    transform: translateZ(10px) rotateY(20deg);
-    filter: grayscale(40%) blur(4px); } }
+    transform: translateZ(20px) rotateY(30deg);
+    transition: all ease-out 0.6s; } }
 
 .f5z2 {
   background-position: left  -384px top -85.33333px; }
@@ -189,7 +191,7 @@ table {
 @media (max-width: 800px) {
   .bum5z2 {
     transform: translateZ(-200px) rotateX(50deg);
-    filter: grayscale(50%) blur(5px); } }
+    transition: all ease-out 0.6s; } }
 
 .f6z2 {
   background-position: left  -480px top -85.33333px; }
@@ -198,8 +200,8 @@ table {
 
 @media (max-width: 800px) {
   .bum6z2 {
-    transform: translateZ(10px) rotateY(20deg);
-    filter: grayscale(60%) blur(6px); } }
+    transform: translateZ(20px) rotateY(30deg);
+    transition: all ease-out 0.6s; } }
 
 .f7z2 {
   background-position: left  -576px top -85.33333px; }
@@ -209,7 +211,7 @@ table {
 @media (max-width: 800px) {
   .bum7z2 {
     transform: translateZ(-200px) rotateX(70deg);
-    filter: grayscale(70%) blur(7px); } }
+    transition: all ease-out 0.6s; } }
 
 .f8z2 {
   background-position: left  -672px top -85.33333px; }
@@ -218,8 +220,8 @@ table {
 
 @media (max-width: 800px) {
   .bum8z2 {
-    transform: translateZ(10px) rotateY(20deg);
-    filter: grayscale(80%) blur(8px); } }
+    transform: translateZ(20px) rotateY(30deg);
+    transition: all ease-out 0.6s; } }
 
 .f1z3 {
   background-position: left  0px top -170.66667px; }
@@ -228,8 +230,8 @@ table {
 
 @media (max-width: 800px) {
   .bum1z3 {
-    transform: translateZ(5px) rotateX(30deg);
-    filter: grayscale(15%) blur(1px); } }
+    transform: translateZ(10px) rotateX(45deg);
+    transition: all ease-out 0.6s; } }
 
 .f2z3 {
   background-position: left  -96px top -170.66667px; }
@@ -238,8 +240,8 @@ table {
 
 @media (max-width: 800px) {
   .bum2z3 {
-    transform: translateZ(-200px) rotateY(20deg);
-    filter: grayscale(30%) blur(2px); } }
+    transform: translateZ(-800px) rotateY(20deg);
+    transition: all ease-out 0.6s; } }
 
 .f3z3 {
   background-position: left  -192px top -170.66667px; }
@@ -248,8 +250,8 @@ table {
 
 @media (max-width: 800px) {
   .bum3z3 {
-    transform: translateZ(15px) rotateX(30deg);
-    filter: grayscale(45%) blur(3px); } }
+    transform: translateZ(30px) rotateX(45deg);
+    transition: all ease-out 0.6s; } }
 
 .f4z3 {
   background-position: left  -288px top -170.66667px; }
@@ -258,8 +260,8 @@ table {
 
 @media (max-width: 800px) {
   .bum4z3 {
-    transform: translateZ(-400px) rotateY(40deg);
-    filter: grayscale(60%) blur(4px); } }
+    transform: translateZ(-1600px) rotateY(40deg);
+    transition: all ease-out 0.6s; } }
 
 .f5z3 {
   background-position: left  -384px top -170.66667px; }
@@ -268,8 +270,8 @@ table {
 
 @media (max-width: 800px) {
   .bum5z3 {
-    transform: translateZ(25px) rotateX(30deg);
-    filter: grayscale(75%) blur(5px); } }
+    transform: translateZ(50px) rotateX(45deg);
+    transition: all ease-out 0.6s; } }
 
 .f6z3 {
   background-position: left  -480px top -170.66667px; }
@@ -278,8 +280,8 @@ table {
 
 @media (max-width: 800px) {
   .bum6z3 {
-    transform: translateZ(-600px) rotateY(60deg);
-    filter: grayscale(90%) blur(6px); } }
+    transform: translateZ(-2400px) rotateY(60deg);
+    transition: all ease-out 0.6s; } }
 
 .f7z3 {
   background-position: left  -576px top -170.66667px; }
@@ -288,8 +290,8 @@ table {
 
 @media (max-width: 800px) {
   .bum7z3 {
-    transform: translateZ(35px) rotateX(30deg);
-    filter: grayscale(105%) blur(7px); } }
+    transform: translateZ(70px) rotateX(45deg);
+    transition: all ease-out 0.6s; } }
 
 .f8z3 {
   background-position: left  -672px top -170.66667px; }
@@ -298,8 +300,8 @@ table {
 
 @media (max-width: 800px) {
   .bum8z3 {
-    transform: translateZ(-800px) rotateY(80deg);
-    filter: grayscale(120%) blur(8px); } }
+    transform: translateZ(-3200px) rotateY(80deg);
+    transition: all ease-out 0.6s; } }
 
 .f1z4 {
   background-position: left  0px top -256px; }
@@ -309,7 +311,7 @@ table {
 @media (max-width: 800px) {
   .bum1z4 {
     transform: translateZ(-400px) rotateX(10deg);
-    filter: grayscale(20%) blur(1px); } }
+    transition: all ease-out 0.6s; } }
 
 .f2z4 {
   background-position: left  -96px top -256px; }
@@ -318,8 +320,8 @@ table {
 
 @media (max-width: 800px) {
   .bum2z4 {
-    transform: translateZ(20px) rotateY(40deg);
-    filter: grayscale(40%) blur(2px); } }
+    transform: translateZ(40px) rotateY(60deg);
+    transition: all ease-out 0.6s; } }
 
 .f3z4 {
   background-position: left  -192px top -256px; }
@@ -329,7 +331,7 @@ table {
 @media (max-width: 800px) {
   .bum3z4 {
     transform: translateZ(-400px) rotateX(30deg);
-    filter: grayscale(60%) blur(3px); } }
+    transition: all ease-out 0.6s; } }
 
 .f4z4 {
   background-position: left  -288px top -256px; }
@@ -338,8 +340,8 @@ table {
 
 @media (max-width: 800px) {
   .bum4z4 {
-    transform: translateZ(20px) rotateY(40deg);
-    filter: grayscale(80%) blur(4px); } }
+    transform: translateZ(40px) rotateY(60deg);
+    transition: all ease-out 0.6s; } }
 
 .f5z4 {
   background-position: left  -384px top -256px; }
@@ -349,7 +351,7 @@ table {
 @media (max-width: 800px) {
   .bum5z4 {
     transform: translateZ(-400px) rotateX(50deg);
-    filter: grayscale(100%) blur(5px); } }
+    transition: all ease-out 0.6s; } }
 
 .f6z4 {
   background-position: left  -480px top -256px; }
@@ -358,8 +360,8 @@ table {
 
 @media (max-width: 800px) {
   .bum6z4 {
-    transform: translateZ(20px) rotateY(40deg);
-    filter: grayscale(120%) blur(6px); } }
+    transform: translateZ(40px) rotateY(60deg);
+    transition: all ease-out 0.6s; } }
 
 .f7z4 {
   background-position: left  -576px top -256px; }
@@ -369,7 +371,7 @@ table {
 @media (max-width: 800px) {
   .bum7z4 {
     transform: translateZ(-400px) rotateX(70deg);
-    filter: grayscale(140%) blur(7px); } }
+    transition: all ease-out 0.6s; } }
 
 .f8z4 {
   background-position: left  -672px top -256px; }
@@ -378,8 +380,8 @@ table {
 
 @media (max-width: 800px) {
   .bum8z4 {
-    transform: translateZ(20px) rotateY(40deg);
-    filter: grayscale(160%) blur(8px); } }
+    transform: translateZ(40px) rotateY(60deg);
+    transition: all ease-out 0.6s; } }
 
 .f1z5 {
   background-position: left  0px top -341.33333px; }
@@ -388,8 +390,8 @@ table {
 
 @media (max-width: 800px) {
   .bum1z5 {
-    transform: translateZ(5px) rotateX(50deg);
-    filter: grayscale(25%) blur(1px); } }
+    transform: translateZ(10px) rotateX(75deg);
+    transition: all ease-out 0.6s; } }
 
 .f2z5 {
   background-position: left  -96px top -341.33333px; }
@@ -398,8 +400,8 @@ table {
 
 @media (max-width: 800px) {
   .bum2z5 {
-    transform: translateZ(-200px) rotateY(20deg);
-    filter: grayscale(50%) blur(2px); } }
+    transform: translateZ(-800px) rotateY(20deg);
+    transition: all ease-out 0.6s; } }
 
 .f3z5 {
   background-position: left  -192px top -341.33333px; }
@@ -408,8 +410,8 @@ table {
 
 @media (max-width: 800px) {
   .bum3z5 {
-    transform: translateZ(15px) rotateX(50deg);
-    filter: grayscale(75%) blur(3px); } }
+    transform: translateZ(30px) rotateX(75deg);
+    transition: all ease-out 0.6s; } }
 
 .f4z5 {
   background-position: left  -288px top -341.33333px; }
@@ -418,8 +420,8 @@ table {
 
 @media (max-width: 800px) {
   .bum4z5 {
-    transform: translateZ(-400px) rotateY(40deg);
-    filter: grayscale(100%) blur(4px); } }
+    transform: translateZ(-1600px) rotateY(40deg);
+    transition: all ease-out 0.6s; } }
 
 .f5z5 {
   background-position: left  -384px top -341.33333px; }
@@ -428,8 +430,8 @@ table {
 
 @media (max-width: 800px) {
   .bum5z5 {
-    transform: translateZ(25px) rotateX(50deg);
-    filter: grayscale(125%) blur(5px); } }
+    transform: translateZ(50px) rotateX(75deg);
+    transition: all ease-out 0.6s; } }
 
 .f6z5 {
   background-position: left  -480px top -341.33333px; }
@@ -438,8 +440,8 @@ table {
 
 @media (max-width: 800px) {
   .bum6z5 {
-    transform: translateZ(-600px) rotateY(60deg);
-    filter: grayscale(150%) blur(6px); } }
+    transform: translateZ(-2400px) rotateY(60deg);
+    transition: all ease-out 0.6s; } }
 
 .f7z5 {
   background-position: left  -576px top -341.33333px; }
@@ -448,8 +450,8 @@ table {
 
 @media (max-width: 800px) {
   .bum7z5 {
-    transform: translateZ(35px) rotateX(50deg);
-    filter: grayscale(175%) blur(7px); } }
+    transform: translateZ(70px) rotateX(75deg);
+    transition: all ease-out 0.6s; } }
 
 .f8z5 {
   background-position: left  -672px top -341.33333px; }
@@ -458,8 +460,8 @@ table {
 
 @media (max-width: 800px) {
   .bum8z5 {
-    transform: translateZ(-800px) rotateY(80deg);
-    filter: grayscale(200%) blur(8px); } }
+    transform: translateZ(-3200px) rotateY(80deg);
+    transition: all ease-out 0.6s; } }
 
 .f1z6 {
   background-position: left  0px top -426.66667px; }
@@ -469,7 +471,7 @@ table {
 @media (max-width: 800px) {
   .bum1z6 {
     transform: translateZ(-600px) rotateX(10deg);
-    filter: grayscale(30%) blur(1px); } }
+    transition: all ease-out 0.6s; } }
 
 .f2z6 {
   background-position: left  -96px top -426.66667px; }
@@ -478,8 +480,8 @@ table {
 
 @media (max-width: 800px) {
   .bum2z6 {
-    transform: translateZ(30px) rotateY(60deg);
-    filter: grayscale(60%) blur(2px); } }
+    transform: translateZ(60px) rotateY(90deg);
+    transition: all ease-out 0.6s; } }
 
 .f3z6 {
   background-position: left  -192px top -426.66667px; }
@@ -489,7 +491,7 @@ table {
 @media (max-width: 800px) {
   .bum3z6 {
     transform: translateZ(-600px) rotateX(30deg);
-    filter: grayscale(90%) blur(3px); } }
+    transition: all ease-out 0.6s; } }
 
 .f4z6 {
   background-position: left  -288px top -426.66667px; }
@@ -498,8 +500,8 @@ table {
 
 @media (max-width: 800px) {
   .bum4z6 {
-    transform: translateZ(30px) rotateY(60deg);
-    filter: grayscale(120%) blur(4px); } }
+    transform: translateZ(60px) rotateY(90deg);
+    transition: all ease-out 0.6s; } }
 
 .f5z6 {
   background-position: left  -384px top -426.66667px; }
@@ -509,7 +511,7 @@ table {
 @media (max-width: 800px) {
   .bum5z6 {
     transform: translateZ(-600px) rotateX(50deg);
-    filter: grayscale(150%) blur(5px); } }
+    transition: all ease-out 0.6s; } }
 
 .f6z6 {
   background-position: left  -480px top -426.66667px; }
@@ -518,8 +520,8 @@ table {
 
 @media (max-width: 800px) {
   .bum6z6 {
-    transform: translateZ(30px) rotateY(60deg);
-    filter: grayscale(180%) blur(6px); } }
+    transform: translateZ(60px) rotateY(90deg);
+    transition: all ease-out 0.6s; } }
 
 .f7z6 {
   background-position: left  -576px top -426.66667px; }
@@ -529,7 +531,7 @@ table {
 @media (max-width: 800px) {
   .bum7z6 {
     transform: translateZ(-600px) rotateX(70deg);
-    filter: grayscale(210%) blur(7px); } }
+    transition: all ease-out 0.6s; } }
 
 .f8z6 {
   background-position: left  -672px top -426.66667px; }
@@ -538,16 +540,22 @@ table {
 
 @media (max-width: 800px) {
   .bum8z6 {
-    transform: translateZ(30px) rotateY(60deg);
-    filter: grayscale(240%) blur(8px); } }
+    transform: translateZ(60px) rotateY(90deg);
+    transition: all ease-out 0.6s; } }
+
+@media (max-width: 300px) {
+  .containerBum {
+    width: 100vw;
+    background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+    filter: opacity(0.5); } }
 
 @media (max-width: 798px) {
-  .container4imgs {
+  .containerBum {
     width: 100vw;
     height: 66.66667vw; } }
 
 @media (min-width: 768px) {
-  .container4imgs {
+  .containerBum {
     width: 768px;
     height: 512px; } }
 

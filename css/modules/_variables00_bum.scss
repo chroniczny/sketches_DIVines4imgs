@@ -52,21 +52,21 @@ $img-height: 512px;
 @mixin bum1 ($col-index, $row-index) {
   @if ($row-index)%2==0 {
     @if ($row-index*$col-index - $col-index )%2==0 { // dla parzystych rzędów robię kolumny nieparzystymi
-      transform: translateZ(5px  * $row-index) rotateY(10deg * $row-index );
+      transform: translateZ(10px  * $row-index) rotateY(15deg * $row-index );
     } @else {
       transform: translateZ(-100px  * $row-index) rotateX(10deg * $col-index );
     }
   } @else { // dla nieparzystych rzędów kolumny ...
     @if ($row-index*$col-index)%2==0 { //
-      transform: translateZ(-100px * $col-index) rotateY(10deg * $col-index );
+      transform: translateZ(-400px * $col-index) rotateY(10deg * $col-index );
     } @else {
-      transform: translateZ(5px * $col-index) rotateX(10deg * $row-index );
+      transform: translateZ(10px * $col-index) rotateX(15deg * $row-index );
     }
   }
 }
 
 @mixin gray-scl ($col-index, $row-index){
-  filter: grayscale($col-index*$row-index*5%) blur($col-index*1px);
+  filter: grayscale($col-index*$row-index*5%) blur((4-$col-index)*1px);
   @content;
 }
 
