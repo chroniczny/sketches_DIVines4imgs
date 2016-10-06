@@ -6,10 +6,11 @@
 
 $first-bckgr-color: white;
 $sketch-color: lightgrey;
-$mouth-color: red;
+$mouth-color: rgb(204, 2, 2);
+
 $tooth-col: lightgoldenrodyellow;
 $tooth-shadow-col: darken(lightgoldenrodyellow, 10);
-$accent-color: darken(crimson, 9);
+$accent-color: rgb(81, 0, 6);
 
 $color1: darkorchid;
 $color2: mediumpurple;
@@ -19,7 +20,11 @@ $color4: palevioletred;
 body {
   background-color: $sketch-color;
   font-family: "Calibri Light", Arial, sans-serif;
+  background-image: url("../images/back_skin.jpg");
+  background-repeat: repeat;
 }
+
+
 
 nav {
   width: 100%;
@@ -108,7 +113,6 @@ nav {
 }
 
 .forNose {
-
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -129,8 +133,8 @@ nav {
       color: $sketch-color;
     }
     &:hover {
-      border: 1px solid $accent-color;
-      background-color: $accent-color;
+      border: 1px solid $color4;
+      background-color: $color4;
       transition: all 0.5s;
       h3 {
         color: white;
@@ -171,7 +175,7 @@ nav {
       }
     }
     &:hover {
-      .lightDot { // --------------z tego śledzenie myszki góra-dół
+      .lightDot { // --------------z tego śledzenie myszki góra-dół function reflexRotate()
         transform: rotate(360deg);
         transition: all 1s;
       }
@@ -179,41 +183,68 @@ nav {
   }
 }
 
+
+.mouth {
+  background-color: white;
+  padding: 10px 10px;
+  //  &:hover {
+  .about { //// klasa nadawana po najechaniu na "bio"
+    display: flex;
+//    transition: all 2s ease;
+  }
+  .topTeeth, .bottomTeeth { // klasa nadawana po najechaniu na "tricks"
+    display: flex;
+//    transition: all 2s ease;
+  }
+  //  }
+}
+
 /*--- content ABOUT --*/
 .about {
-  height: 20vh;
-  background-color: $accent-color;
+  height: 25vh;
+  background-color: rgba(0,0,0,0);
 
-  display: none;
+  background-image: url("../images/back_skin.jpg");
+
+
+//  display: none; // <-----------------------
   .bioText {
-    padding: 10px;
+//padding: 5px;
     flex: 0 1 auto;
 
     color: $first-bckgr-color;
     font-family: "Calibri Light", Calibri, sans-serif;
-    text-align: center;
+//    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+//    vertical-align: middle;
+    &>div {
+      margin: 5%;
+    }
   }
   .lip {
     box-sizing: border-box;
     flex: stretch;
-    background-color: red;
+    background-color: $mouth-color;
     flex: 0 5 auto;
   }
 }
 
 .forTopLips {
   height: 5vh;
-  background-color: red;
+  background-color: $mouth-color;
 }
 
 .topTeeth, .bottomTeeth {
   height: 15vh;
-  display: none;
+//  display: none; // ------------------------------------
   background-color: $accent-color;
   .lip {
     box-sizing: border-box;
     flex: stretch;
-    background-color: red;
+    background-color: $mouth-color;
   }
 
   a {
@@ -228,13 +259,14 @@ nav {
     .tooth {
       background-color: $tooth-col;
       height: 100%;
-
     }
+
     &:hover {
       position: relative;
       color: whitesmoke;
       .tooth {
         background-color: rgba(0,0,0,0);
+        border-top: 1px solid rgba(0,0,0,0);
       }
     }
   }
@@ -258,29 +290,16 @@ nav {
   -webkit-box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
-
+  border-top: 1px solid $tooth-shadow-col;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
 
-.mouth {
-  background-color: white;
-  padding: 10px 10px;
-  &:hover {
-    .about { //// klasa nadawana po najechaniu na "bio"
-      display: flex;
-      transition: all 2s ease;
-    }
-    .topTeeth, .bottomTeeth { // klasa nadawana po najechaniu na "tricks"
-      display: flex;
-      transition: all 2s ease;
-    }
-  }
-}
+
 
 .forTopLips {
   height: 4vh;
-  background-color: red;
+  background-color: $mouth-color;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
 
@@ -308,7 +327,7 @@ nav {
 
 .forBottomLips {
   height: 4vh;
-  background-color: red;
+  background-color: $mouth-color;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   -webkit-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
@@ -317,9 +336,6 @@ nav {
   margin-bottom: 10px;
 }
 
-.hidden {
-  display: none;
-}
 
 footer {
   display: flex;
@@ -350,12 +366,16 @@ footer {
 }
 
 section, footer {
-  -webkit-box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
-  -moz-box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
-  box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
+  -webkit-box-shadow: 0px 9px 7px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 9px 7px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 9px 7px 1px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 270px) {
+
+
+// - - - - - - - - - makin it responsive  - - - - - - - - - - - -
+
+@media (max-width: 280px) {
   .forNose {
     .nose {
       max-width: 100px;
@@ -374,9 +394,12 @@ section, footer {
     }
   }
 
+  .about {
+    height: 40vh;
+  }
 }
 
-@media (min-width: 270px) and (max-width: 340px) {
+@media (min-width: 280px) and (max-width: 340px) {
   .forNose {
     .nose {
       max-width: 100px;
@@ -392,6 +415,10 @@ section, footer {
       display: none;
     }
   }
+  .about {
+    height: 35vh;
+  }
+
 }
 
 @media (min-width: 340px) and (max-width: 450px) {

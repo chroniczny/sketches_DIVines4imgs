@@ -121,7 +121,9 @@ table {
 
 body {
   background-color: lightgrey;
-  font-family: "Calibri Light", Arial, sans-serif; }
+  font-family: "Calibri Light", Arial, sans-serif;
+  background-image: url("../images/back_skin.jpg");
+  background-repeat: repeat; }
 
 nav {
   width: 100%;
@@ -141,7 +143,7 @@ nav {
     height: 100%;
     margin-left: 5vh; }
     nav ul li :hover {
-      color: red; }
+      color: #cc0202; }
 
 .row {
   margin: 0 auto; }
@@ -210,8 +212,8 @@ nav {
     .forNose .chick h3 {
       color: lightgrey; }
     .forNose .chick:hover {
-      border: 1px solid #b21031;
-      background-color: #b21031;
+      border: 1px solid palevioletred;
+      background-color: palevioletred;
       transition: all 0.5s; }
       .forNose .chick:hover h3 {
         color: white; }
@@ -249,35 +251,45 @@ nav {
       transform: rotate(360deg);
       transition: all 1s; }
 
+.mouth {
+  background-color: white;
+  padding: 10px 10px; }
+  .mouth .about {
+    display: flex; }
+  .mouth .topTeeth, .mouth .bottomTeeth {
+    display: flex; }
+
 /*--- content ABOUT --*/
 .about {
-  height: 20vh;
-  background-color: #b21031;
-  display: none; }
+  height: 25vh;
+  background-color: transparent;
+  background-image: url("../images/back_skin.jpg"); }
   .about .bioText {
-    padding: 10px;
     flex: 0 1 auto;
     color: white;
     font-family: "Calibri Light", Calibri, sans-serif;
-    text-align: center; }
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .about .bioText > div {
+      margin: 5%; }
   .about .lip {
     box-sizing: border-box;
     flex: stretch;
-    background-color: red;
+    background-color: #cc0202;
     flex: 0 5 auto; }
 
 .forTopLips {
   height: 5vh;
-  background-color: red; }
+  background-color: #cc0202; }
 
 .topTeeth, .bottomTeeth {
   height: 15vh;
-  display: none;
-  background-color: #b21031; }
+  background-color: #510006; }
   .topTeeth .lip, .bottomTeeth .lip {
     box-sizing: border-box;
     flex: stretch;
-    background-color: red; }
+    background-color: #cc0202; }
   .topTeeth a, .bottomTeeth a {
     flex: stretch;
     flex: 0 1 auto;
@@ -294,7 +306,8 @@ nav {
       position: relative;
       color: whitesmoke; }
       .topTeeth a:hover .tooth, .bottomTeeth a:hover .tooth {
-        background-color: transparent; }
+        background-color: transparent;
+        border-top: 1px solid transparent; }
 
 .topTeeth .tooth {
   border-top-left-radius: 15px;
@@ -311,22 +324,13 @@ nav {
   -webkit-box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px -6px 7px -3px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #f5f5a4;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px; }
 
-.mouth {
-  background-color: white;
-  padding: 10px 10px; }
-  .mouth:hover .about {
-    display: flex;
-    transition: all 2s ease; }
-  .mouth:hover .topTeeth, .mouth:hover .bottomTeeth {
-    display: flex;
-    transition: all 2s ease; }
-
 .forTopLips {
   height: 4vh;
-  background-color: red;
+  background-color: #cc0202;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   position: relative; }
@@ -353,16 +357,13 @@ nav {
 
 .forBottomLips {
   height: 4vh;
-  background-color: red;
+  background-color: #cc0202;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   -webkit-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
   -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
   box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
   margin-bottom: 10px; }
-
-.hidden {
-  display: none; }
 
 footer {
   display: flex;
@@ -388,11 +389,11 @@ footer {
       color: lightgrey; }
 
 section, footer {
-  -webkit-box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
-  -moz-box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5);
-  box-shadow: 0px 9px 7px 1px rgba(100, 100, 100, 0.5); }
+  -webkit-box-shadow: 0px 9px 7px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 9px 7px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 9px 7px 1px rgba(0, 0, 0, 0.5); }
 
-@media (max-width: 270px) {
+@media (max-width: 280px) {
   .forNose .nose {
     max-width: 100px;
     max-height: 100px; }
@@ -401,9 +402,11 @@ section, footer {
   nav ul {
     display: block; }
     nav ul li {
-      display: inline-block; } }
+      display: inline-block; }
+  .about {
+    height: 40vh; } }
 
-@media (min-width: 270px) and (max-width: 340px) {
+@media (min-width: 280px) and (max-width: 340px) {
   .forNose .nose {
     max-width: 100px;
     max-height: 100px; }
@@ -411,7 +414,9 @@ section, footer {
     max-width: 50px;
     max-height: 50px; }
   nav ul li {
-    display: none; } }
+    display: none; }
+  .about {
+    height: 35vh; } }
 
 @media (min-width: 340px) and (max-width: 450px) {
   .forNose .nose {
