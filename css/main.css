@@ -48,9 +48,6 @@ table {
   100% {
     transform: perspective(400px) rotateX(0deg); } }
 
-body {
-  background-color: black; }
-
 .container4imgs {
   margin: 5px auto;
   transform-style: preserve-3d;

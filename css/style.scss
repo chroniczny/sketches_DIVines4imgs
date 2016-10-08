@@ -11,6 +11,7 @@ $mouth-color: rgb(204, 2, 2);
 $tooth-col: lightgoldenrodyellow;
 $tooth-shadow-col: darken(lightgoldenrodyellow, 10);
 $accent-color: rgb(81, 0, 6);
+$lightbox-col-background: rgba(0, 0, 0, 0.9);
 
 $color1: darkorchid;
 $color2: mediumpurple;
@@ -504,16 +505,16 @@ section, footer {
 
 // --- DO PRZEGLĄDANIA TRICKów ---------================================================
 
-
-@keyframes lightBox { // animacja dla np. parzystych kafelków wysuwa górę do przodu
+@keyframes lightBox {
+  // animacja dla np. parzystych kafelków wysuwa górę do przodu
   0% {
     background-color: rgba(0, 0, 0, 0);
   }
-  50% {
-    background-color: rgba(0, 0, 0, 0.25);
-  }
+  //  50% {
+  //    background-color: rgba(0, 0, 0, 0.25);
+  //  }
   100% {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $lightbox-col-background;
   }
 }
 
@@ -522,53 +523,61 @@ section, footer {
     width: 0;
     height: 0;
   }
-  50% {
-    width: 425px;
-    height: 50vh;
+  40% {
+    width: 0;
+    height: 0;
   }
   100% {
-    width: 850px;
+    width: 800px;
     height: 100vh;
   }
 }
 
-
-
 #lightbox {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-//  background-color: rgba(0, 0, 0, 0.5);
+
   z-index: 5;
 
   position: fixed;
   top: 0;
+  animation: lightBox 2s 1;
+  background-color: $lightbox-col-background;
 
-  .forIframes {
-//    width: 850px;
-//    height: 100vh;
-    background-color: #f5f5a4;
-    margin: 0 auto;
+  iframe {
+    width: 800px;
+    height: 100vh;
+
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
     z-index: 5;
-
-    iframe {
-      width: 100%;
-      height: 100%;
-    }
+    animation: appearSize 1s 1;
   }
+  .close {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //      position: absolute;
+    top: 2vh;
+    right: 5vw;
+
+    font-family: "Calibri Light", Calibri, sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: yellow;
+    font-size: 2em;
+  }
+
+//    }
 }
 
-//.backgroundShade:target {
+//.showTrick {
 //  display: block;
+//  animation: lightBox 1s 1;
 //}
-
-//.buttonGoLightBox {
-//  width: 50px;
-//  height: 40px;
-//  background-color: aqua;
-//  margin: 0 auto;
-//}
-
-.showTrick {
-  animation: lightBox 1s 1;
-}

@@ -24,12 +24,9 @@ $(document).ready(function () {
         var lightBox = $('#lightbox');
         var frameTrick = $('iframe');
 
-
-
         topTeeth.hide();
         aboutField.hide();
         bottomTeeth.hide();
-
 
         tricks.on('click', function () {
             console.log('clicked Tricks');
@@ -80,23 +77,23 @@ $(document).ready(function () {
             aboutField.slideDown(500); // pojawia się też pole z tekstem
         });
 
-        teethLink.on('click', function(event) {
+
+        var showTrick = lightBox.find('iframe');
+
+        lightBox.hide();
+
+        teethLink.on('click', function (event) {
             event.preventDefault();
             showTrick.attr("src", ""); // zeruję dotychczasowy atrybut
 
             var linkToTrick = $(this).data('link');
             showTrick.attr("src", linkToTrick);
+            lightBox.show();
+        });
 
-            lightBox.addClass('showTrick');
-            frameTrick.addClass('');
-
-
-
-
-
-
-        })
-
+        lightBox.on('click', function (event) {
+            $(this).hide();
+        });
 
     }
 

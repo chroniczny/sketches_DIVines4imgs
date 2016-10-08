@@ -6,15 +6,15 @@ $(document).ready(function () {
     function tricksShow() {
 
         console.log('działa lightbox?');
-var linkToTrick = $('a');
+        var linkToTrick = $('a');
 
         var lightBox = $('#lightbox');
-        var contForIframe = lightBox.find('linkToTrick');
-        var showTrick = contForIframe.find('iframe');
+        var closeX = lightBox.find('.close');
+        var showTrick = lightBox.find('iframe');
 
         lightBox.hide();
 
-        linkToTrick.on('click', function(event) {
+        linkToTrick.on('click', function (event) {
             event.preventDefault();
             showTrick.attr("src", ""); // zeruję dotychczasowy atrybut
 
@@ -23,11 +23,15 @@ var linkToTrick = $('a');
             lightBox.show();
             //lightBox.addClass('showTrick');
 
-        })
+        });
+        lightBox.on('click', function (event) {
+                $(this).hide();
+        });
+
 
     }
-    tricksShow();
 
+    tricksShow();
 
 
 });
