@@ -48,6 +48,15 @@ table {
   100% {
     transform: perspective(400px) rotateX(0deg); } }
 
+@keyframes lightBox {
+  0% {
+    transform: perspective(400px) rotateX(0deg); }
+  50% {
+    transform: perspective(400px) rotateX(-10deg);
+    box-shadow: 0 -5px 8px -4px black; }
+  100% {
+    transform: perspective(400px) rotateX(0deg); } }
+
 body {
   background-color: black; }
 
