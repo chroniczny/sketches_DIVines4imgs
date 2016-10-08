@@ -1,6 +1,6 @@
 @import "partials/reset";
 //@import "partials/grid";
-@import "modules/_variables00_SCOPE_00";
+@import "modules/_variables00_a_SCOPE";
 
 body {
     background-color: black;
@@ -9,7 +9,6 @@ body {
 .containerScope {
   margin: 5px auto;
   transform-style: preserve-3d; // do przekształceń perspektywicznych
-  //  background-color: whitesmoke;
   border: 10px solid whitesmoke;
   perspective: 300px;
   overflow: hidden;
@@ -53,10 +52,10 @@ body {
 }
 
 @for $n from 0 through $num-cols {
-  .red-#{$n} {
-    background-color: red; //
-    opacity: 1-($n/10);
-    zoom: 1/48; // fajny zoom ... ale on ma być na rodzicu...
+  .light-#{$n} {
+//    background-color: red; //
+    opacity: 1-($n/8);
+    filter: grayscale( 0%+15%*$n );
   }
 }
 

@@ -150,36 +150,46 @@ nav {
     background-image: url("../images/jinn_single100.png");
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+//    display: flex;
+//    justify-content: center;
+//    align-items: flex-end;
+
     flex: 0 0 auto;
+
+position: relative;
 
     -webkit-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
     -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
     box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
 
-    .lightDot {
-      width: 10%;
+    .lightDot1, .lightDot2 {
+      position: absolute;
+      top: 0;
+      left: 70px;
+      width: 30%;
       height: 100%;
-      transform: rotate(0deg);
+      display: flex;
+      justify-content: center;
+//      transform: rotate(0deg); // zostawmy to jq
       div {
         width: 100%;
-        height: 10%;
+        height: 8%;
 
-        background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 2%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 100%); /* FF3.6-15 */
-        background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%); /* Chrome10-25,Safari5.1-6 */
-        background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 2%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%); /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 2%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 2%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1); /* IE6-9 fallback on horizontal gradient */
 
       }
+
     }
-    &:hover {
-      .lightDot { // --------------z tego śledzenie myszki góra-dół function reflexRotate()
-        transform: rotate(360deg);
-        transition: all 1s;
-      }
-    }
+//    &:hover { // zostawmy to jq
+//      .lightDot { // --------------z tego śledzenie myszki góra-dół function reflexRotate()
+//        transform: rotate(360deg);
+//        transition: all 1s;
+//      }
+//    }
   }
 }
 
@@ -205,6 +215,7 @@ nav {
   background-color: rgba(0,0,0,0);
 
   background-image: url("../images/back_skin.jpg");
+//  transform: zoom(0.5)
 
 
 //  display: none; // <-----------------------
@@ -214,6 +225,7 @@ nav {
 
     color: $first-bckgr-color;
     font-family: "Calibri Light", Calibri, sans-serif;
+    font-size: 1.5em;
 //    text-align: center;
 
     display: flex;
@@ -241,6 +253,10 @@ nav {
   height: 15vh;
 //  display: none; // ------------------------------------
   background-color: $accent-color;
+  background-image: url("../images/back_skin.jpg");
+  background-repeat: repeat;
+//  background-size: auto;
+//  background-position: left;
   .lip {
     box-sizing: border-box;
     flex: stretch;
@@ -334,6 +350,7 @@ nav {
   -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
   box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
   margin-bottom: 10px;
+
 }
 
 
@@ -380,6 +397,11 @@ section, footer {
     .nose {
       max-width: 100px;
       max-height: 100px;
+      .lightDot1, .lightDot2 {
+        position: absolute;
+        top: 0;
+        left: 35px;
+      }
     }
     .chick {
       display: none;
@@ -396,6 +418,9 @@ section, footer {
 
   .about {
     height: 40vh;
+    .bioText {
+      font-size: 1em;
+    }
   }
 }
 
@@ -404,6 +429,11 @@ section, footer {
     .nose {
       max-width: 100px;
       max-height: 100px;
+      .lightDot1, .lightDot2 {
+        position: absolute;
+        top: 0;
+        left: 35px;
+      }
     }
     .chick {
       max-width: 50px;
@@ -417,6 +447,9 @@ section, footer {
   }
   .about {
     height: 35vh;
+    .bioText {
+      font-size: 1.0em;
+    }
   }
 
 }
@@ -426,13 +459,23 @@ section, footer {
     .nose {
       max-width: 100px;
       max-height: 100px;
+      .lightDot1, .lightDot2 {
+        position: absolute;
+        top: 0;
+        left: 35px;
+      }
     }
   }
+
   nav {
     ul li {
       display: none;
     }
   }
+  .about .bioText {
+    font-size: 1.0em;
+  }
+
 }
 
 @media (min-width: 450px) {
@@ -441,4 +484,22 @@ section, footer {
       display: none;
     }
   }
+  .about .bioText {
+    font-size: 1.1em;
+  }
 }
+
+@media (min-width: 600px) {
+  nav {
+    ul li {
+      display: none;
+    }
+  }
+  .about .bioText {
+    font-size: 1.3em;
+  }
+
+}
+
+
+

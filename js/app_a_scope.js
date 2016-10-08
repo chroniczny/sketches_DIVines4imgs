@@ -29,23 +29,23 @@ $(document).ready(function () {
 
                 if ((distanceX == 0) && ( distanceY == 0)) {
                     $(this).attr('class', "");
-                    $(this).addClass('red-0'); // lub classToggle()
+                    $(this).addClass('light-0'); // lub classToggle()
                 }
                 else if (((distanceX == 1) && ( distanceY <= 1)) || ((distanceX == 0) && ( distanceY <= 1))) {
                     $(this).attr('class', "");
-                    $(this).addClass('red-1');
+                    $(this).addClass('light-1');
                 }
                 else if (((distanceX == 2) && ( distanceY <= 2)) || ((distanceX <= 1) && ( distanceY <= 2))) {
                     $(this).attr('class', "");
-                    $(this).addClass('red-2');
+                    $(this).addClass('light-2');
                 }
                 else if (((distanceX == 3) && ( distanceY <= 3)) || ((distanceX <= 2) && ( distanceY <= 3))) {
                     $(this).attr('class', "");
-                    $(this).addClass('red-3');
+                    $(this).addClass('light-3');
                 }
                 else {
                     $(this).attr('style', "");
-                    $(this).addClass('red-5');
+                    $(this).addClass('light-5');
                 }
             });
         });

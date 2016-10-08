@@ -30,10 +30,8 @@ $(document).ready(function () {
                 for (var n = 0; n < numOfCols; n++) {
                     if (distanceXsumY == n) {
                         $(this).attr('style', "");
-                        //$(this).addClass('bang-' + n); // lub classToggle()
                         $(this).css({'transform': 'perspective(400px) rotateX(' + n / 2 + 'deg) rotateY(' + n / 2 + 'deg) scale(' + ((n * 0.2) + 0.4) + ')'});
                         $(this).css({'box-shadow': '0 0 27px -1px rgba(0,0,0,0.9)'});
-                        //$(this).children().text(distanceX + ", " + distanceY);
                     }
                 }
             })
