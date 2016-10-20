@@ -25,7 +25,124 @@ body {
   background-repeat: repeat;
 }
 
+@keyframes sizeDotL {
+  0% {
+    width: 5px;
+    height: 5px;
+  }
+  25% {
+    width: 10px;
+    height: 10px;
+  }
+  50% {
+    width: 5px;
+    height: 5px;
+  }
+  75% {
+    width: 3px;
+    height: 3px;
+  }
+  100% {
+    width: 5px;
+    height: 5px;
+  }
+}
 
+@keyframes sizeDotN {
+  0% {
+    width: 3px;
+    height: 3px;
+  }
+  25% {
+    width: 5px;
+    height: 5px;
+  }
+  50% {
+    width: 10px;
+    height: 10px;
+  }
+  75% {
+    width: 5px;
+    height: 5px;
+  }
+  100% {
+    width: 3px;
+    height: 3px;
+  }
+}
+
+@keyframes sizeDotR {
+  0% {
+    width: 3px;
+    height: 3px;
+  }
+  25% {
+    width: 3px;
+    height: 3px;
+  }
+  50% {
+    width: 5px;
+    height: 5px;
+  }
+  75% {
+    width: 10px;
+    height: 10px;
+  }
+  100% {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+.preloader {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  > div {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .preEl, .preEr {
+      width: 10px;
+      height: 10px;
+      background-color: $sketch-color;
+      border-radius: 50%;
+
+    }
+    .preEl {
+      animation: sizeDotL 0.5s infinite;
+    }
+    .preEr {
+      animation: sizeDotR 0.5s infinite;
+    }
+
+    .preN {
+      width: 10px;
+      height: 10px;
+      background-color: $color4;
+      border-radius: 50%;
+      animation: sizeDotN 0.5s infinite;
+    }
+
+  }
+  .preMouth {
+    width: 40px;
+    height: 5px;
+    background-color: $mouth-color;
+    border-radius: 2px;
+  }
+
+}
 
 nav {
   width: 100%;
@@ -130,6 +247,9 @@ nav {
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
+
+    cursor: pointer; // element klikalny
+
     h3 {
       color: $sketch-color;
     }
@@ -152,13 +272,9 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
 
-//    display: flex;
-//    justify-content: center;
-//    align-items: flex-end;
-
     flex: 0 0 auto;
 
-position: relative;
+    position: relative;
 
     -webkit-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
     -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
@@ -172,7 +288,7 @@ position: relative;
       height: 100%;
       display: flex;
       justify-content: center;
-//      transform: rotate(0deg); // zostawmy to jq
+      //      transform: rotate(0deg); // zostawmy to jq
       div {
         width: 100%;
         height: 8%;
@@ -185,27 +301,21 @@ position: relative;
       }
 
     }
-//    &:hover { // zostawmy to jq
-//      .lightDot { // --------------z tego śledzenie myszki góra-dół function reflexRotate()
-//        transform: rotate(360deg);
-//        transition: all 1s;
-//      }
-//    }
   }
 }
-
 
 .mouth {
   background-color: white;
   padding: 10px 10px;
-  //  &:hover {
-  .about { //// klasa nadawana po najechaniu na "bio"
+
+  .about {
+    //// klasa nadawana po najechaniu na "bio"
     display: flex;
-//    transition: all 2s ease;
   }
-  .topTeeth, .bottomTeeth { // klasa nadawana po najechaniu na "tricks"
+  .topTeeth, .bottomTeeth {
+    // klasa nadawana po najechaniu na "tricks"
     display: flex;
-//    transition: all 2s ease;
+    //    transition: all 2s ease;
   }
   //  }
 }
@@ -213,27 +323,22 @@ position: relative;
 /*--- content ABOUT --*/
 .about {
   height: 25vh;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 
   background-image: url("../images/back_skin.jpg");
-//  transform: zoom(0.5)
 
-
-//  display: none; // <-----------------------
   .bioText {
-//padding: 5px;
     flex: 0 1 auto;
 
     color: $first-bckgr-color;
     font-family: "Calibri Light", Calibri, sans-serif;
     font-size: 1.5em;
-//    text-align: center;
 
     display: flex;
     align-items: center;
     justify-content: center;
-//    vertical-align: middle;
-    &>div {
+
+    & > div {
       margin: 5%;
     }
   }
@@ -252,12 +357,11 @@ position: relative;
 
 .topTeeth, .bottomTeeth {
   height: 15vh;
-//  display: none; // ------------------------------------
+  //  display: none; // ------------------------------------
   background-color: $accent-color;
   background-image: url("../images/back_skin.jpg");
   background-repeat: repeat;
-//  background-size: auto;
-//  background-position: left;
+
   .lip {
     box-sizing: border-box;
     flex: stretch;
@@ -265,6 +369,7 @@ position: relative;
   }
 
   a {
+    cursor: pointer; // element klikalny
     flex: stretch;
     flex: 0 1 auto;
     width: 100%;
@@ -282,8 +387,8 @@ position: relative;
       position: relative;
       color: whitesmoke;
       .tooth {
-        background-color: rgba(0,0,0,0);
-        border-top: 1px solid rgba(0,0,0,0);
+        background-color: rgba(0, 0, 0, 0);
+        border-top: 1px solid rgba(0, 0, 0, 0);
       }
     }
   }
@@ -312,8 +417,6 @@ position: relative;
   border-top-right-radius: 4px;
 }
 
-
-
 .forTopLips {
   height: 4vh;
   background-color: $mouth-color;
@@ -339,7 +442,6 @@ position: relative;
     -moz-box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
     box-shadow: 0px 5px 6px -4px rgba(100, 100, 100, 0.5);
   }
-
 }
 
 .forBottomLips {
@@ -351,9 +453,7 @@ position: relative;
   -moz-box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
   box-shadow: 0px 6px 7px -3px rgba(100, 100, 100, 0.5);
   margin-bottom: 10px;
-
 }
-
 
 footer {
   display: flex;
@@ -388,8 +488,6 @@ section, footer {
   -moz-box-shadow: 0px 9px 7px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 9px 7px 1px rgba(0, 0, 0, 0.5);
 }
-
-
 
 // - - - - - - - - - makin it responsive  - - - - - - - - - - - -
 
@@ -452,7 +550,6 @@ section, footer {
       font-size: 1.0em;
     }
   }
-
 }
 
 @media (min-width: 340px) and (max-width: 450px) {
@@ -476,7 +573,6 @@ section, footer {
   .about .bioText {
     font-size: 1.0em;
   }
-
 }
 
 @media (min-width: 450px) {
@@ -499,20 +595,16 @@ section, footer {
   .about .bioText {
     font-size: 1.3em;
   }
-
 }
-
 
 // --- DO PRZEGLĄDANIA TRICKów ---------================================================
 
 @keyframes lightBox {
-  // animacja dla np. parzystych kafelków wysuwa górę do przodu
+
   0% {
     background-color: rgba(0, 0, 0, 0);
   }
-  //  50% {
-  //    background-color: rgba(0, 0, 0, 0.25);
-  //  }
+
   100% {
     background-color: $lightbox-col-background;
   }
@@ -548,7 +640,7 @@ section, footer {
   background-color: $lightbox-col-background;
 
   iframe {
-    width: 800px;
+    width: 850px;
     height: 100vh;
 
     overflow: auto;
@@ -557,27 +649,35 @@ section, footer {
     animation: appearSize 1s 1;
   }
   .close {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     position: fixed;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    //      position: absolute;
     top: 2vh;
     right: 5vw;
 
+    z-index: 10;
+    cursor: pointer; // wskazanie użytkownikoi, ze to element klikalny
+
     font-family: "Calibri Light", Calibri, sans-serif;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: yellow;
+    background-color: rgba(255, 255, 255, 0.7);
     font-size: 2em;
+    & > div {
+      width: 80%;
+      height: 10%;
+      background-color: white;
+      position: relative;
+      margin: 0;
+      &:first-child {
+        transform: rotate(45deg);
+        top: 18px;
+        right: -4px;
+      }
+      &:nth-child(2) {
+        transform: rotate(-45deg);
+        top: 14px;
+        right: -4px;
+      }
+    }
   }
-
-//    }
 }
-
-//.showTrick {
-//  display: block;
-//  animation: lightBox 1s 1;
-//}

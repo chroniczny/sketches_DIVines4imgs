@@ -1,0 +1,58 @@
+@import "reset";
+//@import "partials/grid";
+@import "../modules/_variables01_map";
+
+body {
+  //  background-color: black;
+}
+
+.container4imgs {
+  max-width: $img-width;
+  max-height: 1.03*$img-height;
+  margin: 20px auto;
+  transform-style: preserve-3d;
+}
+
+.fragment {
+  box-sizing: border-box;
+  width: $img-width/$num-cols;
+  height: $img-height/$num-rows;
+  background-color: aquamarine;
+  background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+  //  background-image: url("/jinn.png");
+  float: left;
+}
+
+.reflex {
+  width: 100%;
+  height: 100%;
+}
+
+@for $j from 1 through $num-rows {
+  @for $k from 1 through $num-cols {
+    .f#{$k}z#{$j} {
+      //        background-image: url("jinn.png");
+      background-position: left #{" "}(1-$k)*$img-width/$num-cols top#{" "}(1-$j)*$img-height/$num-rows;
+
+      @media (max-width: 300px + 40px) {
+        @include assembling-map-horizontal($j); // składka po wierszach i reflexy gradientowe
+        /*--to będzie harmonijka--*/
+        max-width: 95vw/$num-cols;
+        max-height: 50vh/$num-rows;
+
+      }
+      @media (min-width: 300px + 40px) and (max-width: $img-width + 20px) {
+        @include assembling-map($k); // składka po kolumnach i reflexy gradientowe
+        /*--to będzie harmonijka--*/
+        width: 95vw/$num-cols;
+        height: $img-height/$num-rows;
+      }
+      @media (min-width: $img-width + 20px) {
+        /*--to wyprostowana-rozwinięta mapa--*/
+        width: $img-width/$num-cols;
+        height: $img-height/$num-rows;
+      }
+    }
+  }
+}
+

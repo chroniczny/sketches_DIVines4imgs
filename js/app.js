@@ -3,6 +3,8 @@
  */
 $(document).ready(function () {
 
+    $('.preloader').fadeOut(1500);
+
     function tricksList() {
 
         console.log('działa TRICKS');
@@ -95,20 +97,28 @@ $(document).ready(function () {
             $(this).hide();
         });
 
+        $('body').keydown(function(event) { // zamykanie LIGHTBOXa za pomocą klawisza Esc (27)
+            //alert(e.which);
+            if(event.which == 27){
+                lightBox.hide();
+            }
+
+        });
+
     }
 
     tricksList();
 
-
+// ----------- a light reflex on the 'nose' -----------
     function goDottyReflexion() {
 
-        var scene = $('.topFace');
+        var scene = $(window);
         var oldMousePositionY = 0;
 
         var nose = $('.nose');
         var lightDotFrst = nose.find('.lightDot1');
         var lightDotScnd = nose.find('.lightDot2');
-        scene.on('mouseover', function (event) {
+        scene.on('mouseover', function(event) {
 
             var mousePositionY = event.clientY;
             var heightOfScene = scene.innerHeight();
@@ -116,8 +126,8 @@ $(document).ready(function () {
             var degRotation = 175 * (mousePositionY / heightOfScene);
             console.log(heightOfScene);
             console.log(degRotation + ' degrees');
-            lightDotFrst.css({"transform": 'rotate(' + degRotation + 'deg)', "transition": 'all 0.1s'});
-            lightDotScnd.css({"transform": 'rotate(' + -degRotation + 'deg)', "transition": 'all 0.1s'});
+            lightDotFrst.css({"transform": 'rotate(' + degRotation + 'deg)', "transition": 'all 0.2s'});
+            lightDotScnd.css({"transform": 'rotate(' + -degRotation + 'deg)', "transition": 'all 0.2s'});
         })
     }
 

@@ -125,6 +125,96 @@ body {
   background-image: url("../images/back_skin.jpg");
   background-repeat: repeat; }
 
+@keyframes sizeDotL {
+  0% {
+    width: 5px;
+    height: 5px; }
+  25% {
+    width: 10px;
+    height: 10px; }
+  50% {
+    width: 5px;
+    height: 5px; }
+  75% {
+    width: 3px;
+    height: 3px; }
+  100% {
+    width: 5px;
+    height: 5px; } }
+
+@keyframes sizeDotN {
+  0% {
+    width: 3px;
+    height: 3px; }
+  25% {
+    width: 5px;
+    height: 5px; }
+  50% {
+    width: 10px;
+    height: 10px; }
+  75% {
+    width: 5px;
+    height: 5px; }
+  100% {
+    width: 3px;
+    height: 3px; } }
+
+@keyframes sizeDotR {
+  0% {
+    width: 3px;
+    height: 3px; }
+  25% {
+    width: 3px;
+    height: 3px; }
+  50% {
+    width: 5px;
+    height: 5px; }
+  75% {
+    width: 10px;
+    height: 10px; }
+  100% {
+    width: 5px;
+    height: 5px; } }
+
+.preloader {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .preloader > div {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .preloader > div .preEl, .preloader > div .preEr {
+      width: 10px;
+      height: 10px;
+      background-color: lightgrey;
+      border-radius: 50%; }
+    .preloader > div .preEl {
+      animation: sizeDotL 0.5s infinite; }
+    .preloader > div .preEr {
+      animation: sizeDotR 0.5s infinite; }
+    .preloader > div .preN {
+      width: 10px;
+      height: 10px;
+      background-color: palevioletred;
+      border-radius: 50%;
+      animation: sizeDotN 0.5s infinite; }
+  .preloader .preMouth {
+    width: 40px;
+    height: 5px;
+    background-color: #cc0202;
+    border-radius: 2px; }
+
 nav {
   width: 100%;
   max-width: 800px;
@@ -208,7 +298,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 0 auto; }
+    flex: 0 0 auto;
+    cursor: pointer; }
     .forNose .chick h3 {
       color: lightgrey; }
     .forNose .chick:hover {
@@ -293,6 +384,7 @@ nav {
     flex: stretch;
     background-color: #cc0202; }
   .topTeeth a, .bottomTeeth a {
+    cursor: pointer;
     flex: stretch;
     flex: 0 1 auto;
     width: 100%;
@@ -486,25 +578,37 @@ section, footer {
   animation: lightBox 2s 1;
   background-color: rgba(0, 0, 0, 0.9); }
   #lightbox iframe {
-    width: 800px;
+    width: 850px;
     height: 100vh;
     overflow: auto;
     background-color: transparent;
     z-index: 5;
     animation: appearSize 1s 1; }
   #lightbox .close {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     position: fixed;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     top: 2vh;
     right: 5vw;
+    z-index: 10;
+    cursor: pointer;
     font-family: "Calibri Light", Calibri, sans-serif;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: yellow;
+    background-color: rgba(255, 255, 255, 0.7);
     font-size: 2em; }
+    #lightbox .close > div {
+      width: 80%;
+      height: 10%;
+      background-color: white;
+      position: relative;
+      margin: 0; }
+      #lightbox .close > div:first-child {
+        transform: rotate(45deg);
+        top: 18px;
+        right: -4px; }
+      #lightbox .close > div:nth-child(2) {
+        transform: rotate(-45deg);
+        top: 14px;
+        right: -4px; }
 
 /*# sourceMappingURL=style.css.map */

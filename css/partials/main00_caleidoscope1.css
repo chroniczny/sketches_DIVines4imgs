@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  box-sizing: border-box; }
+
+#caleidoscope {
+  margin: 5px auto;
+  transform-style: preserve-3d;
+  border: 10px solid whitesmoke;
+  perspective: 300px; }
+
+.puzzle {
+  width: 25%;
+  height: 25%;
+  background-color: whitesmoke;
+  float: left;
+  overflow: hidden;
+  position: relative; }
+  .puzzle [id*='puz'] {
+    width: 768px;
+    height: 512px;
+    background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute; }
+
+.noPuzling #puz1row1 {
+  left: 0px;
+  top: 0px; }
+
+.noPuzling #puz2row1 {
+  left: -192px;
+  top: 0px; }
+
+.noPuzling #puz3row1 {
+  left: -384px;
+  top: 0px; }
+
+.noPuzling #puz4row1 {
+  left: -576px;
+  top: 0px; }
+
+.noPuzling #puz1row2 {
+  left: 0px;
+  top: -128px; }
+
+.noPuzling #puz2row2 {
+  left: -192px;
+  top: -128px; }
+
+.noPuzling #puz3row2 {
+  left: -384px;
+  top: -128px; }
+
+.noPuzling #puz4row2 {
+  left: -576px;
+  top: -128px; }
+
+.noPuzling #puz1row3 {
+  left: 0px;
+  top: -256px; }
+
+.noPuzling #puz2row3 {
+  left: -192px;
+  top: -256px; }
+
+.noPuzling #puz3row3 {
+  left: -384px;
+  top: -256px; }
+
+.noPuzling #puz4row3 {
+  left: -576px;
+  top: -256px; }
+
+.noPuzling #puz1row4 {
+  left: 0px;
+  top: -384px; }
+
+.noPuzling #puz2row4 {
+  left: -192px;
+  top: -384px; }
+
+.noPuzling #puz3row4 {
+  left: -384px;
+  top: -384px; }
+
+.noPuzling #puz4row4 {
+  left: -576px;
+  top: -384px; }
+
+.puzling #puz1row1 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz2row1 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz3row1 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz4row1 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz1row2 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz2row2 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz3row2 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz4row2 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz1row3 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz2row3 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz3row3 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz4row3 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz1row4 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz2row4 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz3row4 {
+  left: 0;
+  top: 0; }
+
+.puzling #puz4row4 {
+  left: 0;
+  top: 0; }
+
+#pilot {
+  width: 192px;
+  height: 128px;
+  background-color: crimson;
+  border: 5px solid white;
+  margin: 2px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #pilot h2 {
+    font-family: "Calibri Light", Calibri, sans-serif;
+    color: floralwhite;
+    text-decoration: double; }
+
+@media (max-width: 798px) {
+  #caleidoscope {
+    width: 100vw;
+    height: 66.66667vw; } }
+
+@media (min-width: 768px) {
+  #caleidoscope {
+    width: 768px;
+    height: 512px; } }
+
+/*# sourceMappingURL=main00_caleidoscope1.css.map */

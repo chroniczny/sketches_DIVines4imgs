@@ -1,0 +1,51 @@
+@import "reset";
+//@import "partials/grid";
+@import "../modules/_variables";
+
+body {
+//  background-color: black;
+}
+.container4imgs {
+  margin: 5px auto;
+  transform-style: preserve-3d;
+//  background-color: whitesmoke;
+    border: 10px solid whitesmoke;
+}
+
+.fragment {
+//  box-sizing: border-box;
+  width: 100%/$num-cols;
+  height: 100%/$num-rows;
+  background-color: aquamarine;
+  background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+//  background-image: url("/jinn.png");
+  float: left;
+}
+
+
+@for $j from 1 through $num-rows {
+  @for $k from 1 through $num-cols {
+      .f#{$k}z#{$j} {
+//        background-image: url("jinn.png");
+        background-position: left #{" "}(1-$k)*$img-width/$num-cols top#{" "}(1-$j)*$img-height/$num-rows;
+        &:hover {
+        @include push-gap($k, $j) // mixin uzależnia rodzaj animacji od pozycji kafelka - naprzemiennie..
+        }
+    }
+  }
+}
+
+@media (max-width: $img-width + 30px) { // po zmniejszeniu robi się mozaika-kaleidoskop
+  .container4imgs {
+    width: 100vw;
+    height: ($img-height/$img-width)*100vw; // proporcjonalnosć obrazka zapewniam obl. wysokość...
+  }
+
+}
+@media (min-width: $img-width) { // rzeczywisty rozmiar obrazka
+  .container4imgs {
+    width: $img-width;
+    height: $img-height;
+  }
+
+}

@@ -1,0 +1,96 @@
+@import "reset";
+@import "../modules/_variables00_caleidoscope1";
+
+body {
+  //  background-color: black;
+  box-sizing: border-box;
+}
+
+#caleidoscope {
+  margin: 5px auto;
+  transform-style: preserve-3d;
+  border: 10px solid whitesmoke;
+  perspective: 300px;
+}
+
+.puzzle {
+  width: 100%/$cldscp-num-cols;
+  height: 100%/$cldscp-num-rows;
+  background-color: whitesmoke;
+
+  float: left;
+  overflow: hidden;
+  position: relative;
+  [id*='puz'] {
+    width: $img-width;
+    height: $img-height;
+    //    background-image: url("../images/jinn.png");
+    background-image: url("http://cdn.barnimages.com/wp-content/uploads/2016/08/2016-08-28-maria-tarasova-barnimages-006-768x512.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+
+  }
+}
+
+.noPuzling {
+
+  @for $j from 1 through $cldscp-num-rows {
+    @for $k from 1 through $cldscp-num-cols {
+      #puz#{$k}row#{$j} {
+        //        background-image: url("jinn.png");
+        left: (1-$k)*$img-width/$cldscp-num-cols;
+        top: (1-$j)*$img-height/$cldscp-num-rows;
+      }
+    }
+  }
+}
+
+.puzling {
+  @for $r from 1 through $cldscp-num-rows {
+    @for $k from 1 through $cldscp-num-cols {
+      #puz#{$k}row#{$r} {
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+}
+
+#pilot {
+  width: $img-width/$cldscp-num-cols;
+  height: $img-height/$cldscp-num-rows;
+  background-color: crimson;
+  border: 5px solid white;
+  margin: 2px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-family: "Calibri Light", Calibri, sans-serif;
+    color: floralwhite;
+    text-decoration: double;
+  }
+}
+
+@media (max-width: $img-width + 30px) {
+
+  #caleidoscope {
+    width: 100vw;
+    height: ($img-height/$img-width)*100vw; // proportional height
+  }
+
+}
+
+@media (min-width: $img-width) {
+
+  #caleidoscope {
+    width: $img-width;
+    height: $img-height;
+  }
+}
+
+
+
+
+

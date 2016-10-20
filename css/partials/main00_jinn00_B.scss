@@ -1,0 +1,35 @@
+@import "reset";
+
+.jinnContainer {
+  margin: 10vh auto;
+  position: relative;
+
+  background-color: greenyellow;
+  width: 800px;
+  height: 450px;
+  background-image: url('../../images/jinn100.png'); // jinn z tłem
+    overflow: hidden;
+  .jinnF {
+    background-image: url('../../images/jinn_single100.png'); // wycięty jinn dla efektu
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+// -- BIG ---
+@for $i from 1 through 10 {
+  .Fragm-#{$i} {
+    position: absolute;
+    left: 400px - 228px/($i*$i*2); // pozycja elementów zgodnie z ich rozmiarem
+    top: 91px + $i*15px; //
+
+    background-color: rgba(255, 255, 255, 0);
+    width: 228px*$i; // pomniejszanie jako funkcja liniowa
+    height: 318px*$i; // j.w.
+    z-index: $i; // z-index uzależniony od iteracji
+  }
+}
+
+.go-back { // łagodny powrót do pozycji poprzedniej
+  transition: all 1s;
+}

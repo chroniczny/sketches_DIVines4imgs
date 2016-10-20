@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.jinnContainer {
+  margin: 10vh auto;
+  position: relative;
+  background-color: greenyellow;
+  width: 800px;
+  height: 450px;
+  background-image: url("../../images/jinn100.png");
+  overflow: hidden; }
+  .jinnContainer .jinnF {
+    background-image: url("../../images/jinn_single100.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.Fragm-1 {
+  position: absolute;
+  left: 286px;
+  top: 106px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 228px;
+  height: 318px;
+  z-index: 10; }
+
+.Fragm-2 {
+  position: absolute;
+  left: 343px;
+  top: 121px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 114px;
+  height: 159px;
+  z-index: 9; }
+
+.Fragm-3 {
+  position: absolute;
+  left: 362px;
+  top: 136px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 76px;
+  height: 106px;
+  z-index: 8; }
+
+.Fragm-4 {
+  position: absolute;
+  left: 371.5px;
+  top: 151px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 57px;
+  height: 79.5px;
+  z-index: 7; }
+
+.Fragm-5 {
+  position: absolute;
+  left: 377.2px;
+  top: 166px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 45.6px;
+  height: 63.6px;
+  z-index: 6; }
+
+.Fragm-6 {
+  position: absolute;
+  left: 381px;
+  top: 181px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 38px;
+  height: 53px;
+  z-index: 5; }
+
+.Fragm-7 {
+  position: absolute;
+  left: 383.71429px;
+  top: 196px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 32.57143px;
+  height: 45.42857px;
+  z-index: 4; }
+
+.Fragm-8 {
+  position: absolute;
+  left: 385.75px;
+  top: 211px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 28.5px;
+  height: 39.75px;
+  z-index: 3; }
+
+.Fragm-9 {
+  position: absolute;
+  left: 387.33333px;
+  top: 226px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 25.33333px;
+  height: 35.33333px;
+  z-index: 2; }
+
+.Fragm-10 {
+  position: absolute;
+  left: 388.6px;
+  top: 241px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 22.8px;
+  height: 31.8px;
+  z-index: 1; }
+
+.go-back {
+  transition: all 1s; }
+
+/*# sourceMappingURL=main00_jinn00.css.map */
